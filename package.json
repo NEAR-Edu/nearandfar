@@ -1,0 +1,19 @@
+{
+  "name": "near-and-far-course",
+  "version": "0.0.1",
+  "description": "intro course to NEAR for non-programmers",
+  "main": "index.js",
+  "authors": {
+    "name": "Ben",
+    "email": "ben@near.foundation"
+  },
+  "repository": "https://github.com/humanman/near-and-far-course.git/near-and-far-course",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
