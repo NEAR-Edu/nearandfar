@@ -1,11 +1,14 @@
-<template><div class="asset-container">
-    <img :src="$withBase('/images/course/pc_dist.jpeg')" alt="multiple vintage pc">
-</div>
-<h1 id="_2-you-and-the-internet" tabindex="-1"><a class="header-anchor" href="#_2-you-and-the-internet" aria-hidden="true">#</a> 2. You and the Internet</h1>
+<template><h1 id="_2-you-and-the-internet" tabindex="-1"><a class="header-anchor" href="#_2-you-and-the-internet" aria-hidden="true">#</a> 2. You and the Internet</h1>
 <hr>
 <h2 id="introduction" tabindex="-1"><a class="header-anchor" href="#introduction" aria-hidden="true">#</a> Introduction</h2>
+<div class="asset-container" style="position:relative;top:-25px;">
+    <img :src="$withBase('/images/course/int_sl_intro.png')" alt="neighborhood and network" class="slide">
+</div>
 <h3 id="the-internet-is-a-network-of-networks-of-computers" tabindex="-1"><a class="header-anchor" href="#the-internet-is-a-network-of-networks-of-computers" aria-hidden="true">#</a> The Internet is a Network (of networks) of Computers 📡</h3>
 <h4 id="think-of-your-neighborhood-how-is-it-organized" tabindex="-1"><a class="header-anchor" href="#think-of-your-neighborhood-how-is-it-organized" aria-hidden="true">#</a> Think of your neighborhood. How is it organized?</h4>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/int_sl_net.png')" alt="neighborhood" class="slide">
+</div>
 <ul>
 <li>houses connect to each other through shared <strong>interfaces</strong>
 <ul>
@@ -22,6 +25,9 @@
 <li>some neighborhoods are spread out 🏠🏜️🏜️🏠</li>
 </ul>
 <h2 id="interfaces-of-the-internet" tabindex="-1"><a class="header-anchor" href="#interfaces-of-the-internet" aria-hidden="true">#</a> <em>Interfaces</em> of the Internet</h2>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/int_sl_ip.png')" alt="network diagram" class="slide">
+</div>
 <h4 id="the-internet-is-organized-in-a-similar-way-to-your-neighborhood" tabindex="-1"><a class="header-anchor" href="#the-internet-is-organized-in-a-similar-way-to-your-neighborhood" aria-hidden="true">#</a> the internet is organized in a similar way to your neighborhood</h4>
 <ul>
 <li>networks generally have one Network Access Point (NAP) to handle traffic in / out of network</li>
@@ -54,17 +60,27 @@
 <p>Networking <strong>nodes</strong> and <strong>modules</strong> isn't all that different (I mean, it is! But you get the idea )</p>
 </div>
 <hr>
-<h4 id="neighborhood-health-relies-on-people-getting-along-usually-through-some-set-of-rules-every-neighbor-agrees-to-follow" tabindex="-1"><a class="header-anchor" href="#neighborhood-health-relies-on-people-getting-along-usually-through-some-set-of-rules-every-neighbor-agrees-to-follow" aria-hidden="true">#</a> neighborhood health relies on people getting along, usually through some set of rules every neighbor agrees to follow</h4>
+<h4 id="neighborhood-health-relies-on-people-getting-along-usually-through-some-set-of-rules-every-neighbor-agrees-to-follow" tabindex="-1"><a class="header-anchor" href="#neighborhood-health-relies-on-people-getting-along-usually-through-some-set-of-rules-every-neighbor-agrees-to-follow" aria-hidden="true">#</a> Neighborhood health relies on people getting along, usually through some set of rules every neighbor agrees to follow</h4>
 <ul>
 <li>some neighborhoods have HOAs</li>
 <li>some neighborhoods have community boards</li>
 <li>some employ neighborhood watch shifts</li>
 <li>some have regular block parties</li>
 </ul>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/int_sl_net-health.png')" alt="neighborhood and network" class="slide">
+</div>
 <hr>
-<h4 id="network-health-relies-on-good-node-to-node-communication-and-good-module-to-module-communication" tabindex="-1"><a class="header-anchor" href="#network-health-relies-on-good-node-to-node-communication-and-good-module-to-module-communication" aria-hidden="true">#</a> <em>network</em> health relies on good node-to-node communication, and good module-to-module communication</h4>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/int_sl_net-diag-simple.png')" alt="neighborhood and network" class="flex-multi-row">
+    <img :src="$withBase('/images/course/int_sl_net-diag-mid.png')" alt="neighborhood and network" class="flex-multi-row">
+    <img :src="$withBase('/images/course/int_sl_net-diag-big.png')" alt="neighborhood and network" class="flex-multi-row">
+</div>
+<small style="margin: 0 0 0 25%;">three diagrams demonstrating progressively complex network systems</small>
+<hr>
+<h4 id="network-health-relies-on-good-node-to-node-communication-and-good-module-to-module-communication" tabindex="-1"><a class="header-anchor" href="#network-health-relies-on-good-node-to-node-communication-and-good-module-to-module-communication" aria-hidden="true">#</a> <em>Network</em> health relies on good node-to-node communication, and good module-to-module communication</h4>
 <ul>
-<li>each network has at least one access point (NAP)
+<li>each network has at least one Network Access Point (<strong>NAP</strong>)
 <ul>
 <li><em>i.e. a front desk</em>
 <ul>
@@ -76,15 +92,16 @@
 <li>these connections need to agree on basic rules called <strong>protocols</strong> that every <strong>node</strong> and <strong>module</strong> (cluster of nodes) must follow</li>
 <li>network protocols ensure that a connection between any two <strong>nodes</strong> will be available, reliable, and consistent 24 / 7</li>
 </ul>
-<hr>
 <h4 id="the-set-of-rules-that-comprise-how-the-internet-works-are-called-internet-protocols-ip" tabindex="-1"><a class="header-anchor" href="#the-set-of-rules-that-comprise-how-the-internet-works-are-called-internet-protocols-ip" aria-hidden="true">#</a> The set of rules that comprise how the internet works are called Internet Protocols (IP)</h4>
 <ul>
 <li>Each node connected to the internet must have its own <strong>IP address</strong> so other nodes can find it.</li>
 </ul>
 <hr>
 <h2 id="data-and-the-internet" tabindex="-1"><a class="header-anchor" href="#data-and-the-internet" aria-hidden="true">#</a> <em>Data</em> and the internet</h2>
-<hr>
-<h4 id="internet-data-is-about-connectivity" tabindex="-1"><a class="header-anchor" href="#internet-data-is-about-connectivity" aria-hidden="true">#</a> internet data is about connectivity</h4>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/int_data-st.jpg')" alt="Twin Datas from Star Trek">
+</div>
+<h4 id="internet-data-is-about-connectivity" tabindex="-1"><a class="header-anchor" href="#internet-data-is-about-connectivity" aria-hidden="true">#</a> Internet data is about connectivity</h4>
 <ul>
 <li><strong>data</strong> travels through the internet from one node to another until it reaches it's destination IP address.</li>
 <li>think of it as the difference between a letter and the entire postal system
@@ -109,6 +126,9 @@
 </li>
 </ul>
 <h4 id="data-is-handled-in-two-basic-ways-on-the-internet" tabindex="-1"><a class="header-anchor" href="#data-is-handled-in-two-basic-ways-on-the-internet" aria-hidden="true">#</a> data is handled in two basic ways on the internet</h4>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/int_sl_data.png')" alt="neighborhood and network" class="slide">
+</div>
 <h3 id="data-in-motion" tabindex="-1"><a class="header-anchor" href="#data-in-motion" aria-hidden="true">#</a> <strong>data in motion</strong> 🏃</h3>
 <ul>
 <li>data is broken down into packets</li>
@@ -138,6 +158,10 @@
 </ul>
 <hr>
 <h2 id="time-and-the-internet" tabindex="-1"><a class="header-anchor" href="#time-and-the-internet" aria-hidden="true">#</a> <em>Time</em> and the internet 🕚</h2>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/int_time_sync-diag.png')" alt="network time diagram" style="max-width: 40%;">
+    <img :src="$withBase('/images/course/int_sl_net-sync-time.png')" alt="network time sync diagram">
+</div>
 <ul>
 <li>
 <p>Network Time Protocols (NTP) help networks sync time</p>
@@ -189,8 +213,14 @@
 </ul>
 <hr>
 <h2 id="your-relationship-with-the-internet" tabindex="-1"><a class="header-anchor" href="#your-relationship-with-the-internet" aria-hidden="true">#</a> Your Relationship with the Internet</h2>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/int_sl_the-web.png')" alt="the 90s web" class="slide">
+</div>
 <hr>
 <h3 id="identity" tabindex="-1"><a class="header-anchor" href="#identity" aria-hidden="true">#</a> <em>Identity</em></h3>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/int_sl_comic.png')" alt="early internet comic" class="slide">
+</div>
 <ul>
 <li>Your IP Address is your identity
 <ul>
@@ -200,23 +230,36 @@
 </ul>
 <hr>
 <h3 id="ownership" tabindex="-1"><a class="header-anchor" href="#ownership" aria-hidden="true">#</a> <em>Ownership</em></h3>
+<h4 id="who-owns-the-internet-not-you" tabindex="-1"><a class="header-anchor" href="#who-owns-the-internet-not-you" aria-hidden="true">#</a> Who owns the internet? Not you!</h4>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/int_sl_own.png')" alt="internet ownership" class="slide">
+</div>
 <ul>
-<li>you don't own your apartment building or the roads and sidewalks that make it accessible</li>
-</ul>
-<h4 id="who-owns-the-internet-not-you" tabindex="-1"><a class="header-anchor" href="#who-owns-the-internet-not-you" aria-hidden="true">#</a> who owns the internet? Not you!</h4>
-<ul>
-<li>businesses built their own networks and eventually agreed to connect those networks</li>
-<li>network owners can take a node or entire network offline</li>
-<li>your computer's access to the internet is entirely governed by centralized networks
+<li>
+<p>you don't own your apartment building or the roads and sidewalks that make it accessible</p>
+</li>
+<li>
+<p>businesses built their own networks and eventually agreed to connect those networks</p>
+</li>
+<li>
+<p>network owners can take a node or entire network offline</p>
+</li>
+<li>
+<p>your computer's access to the internet is entirely governed by centralized networks</p>
 <ul>
 <li>You are at their mercy</li>
 <li>You pay for a service, not a right</li>
 </ul>
 </li>
-<li>you have no say in how internet protocols are decided</li>
+<li>
+<p>you have no say in how internet protocols are decided</p>
+</li>
 </ul>
 <hr>
 <h2 id="structure-of-the-internet" tabindex="-1"><a class="header-anchor" href="#structure-of-the-internet" aria-hidden="true">#</a> <em>Structure</em> of the internet 🏛️</h2>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/int_sl_struct.png')" alt="neighborhood and network" class="slide">
+</div>
 <ul>
 <li>
 <p>The Internet is <strong>distributed</strong></p>
@@ -254,3 +297,62 @@
 </ul>
 <hr>
 </template>
+
+<style lang="sass">
+.asset-container
+    display: flex
+    justify-content: center
+    align-items: center
+    margin: 1rem
+
+.asset-container img 
+    width: 100%
+    max-width: 450px
+
+.asset-container img.slide 
+    width: 100%
+    max-width: 80vw
+
+.asset-container img.flex-multi-row
+    width: 100%
+    max-width: 30%
+
+@keyframes flickerAnimation 
+    0%   
+        opacity:1
+    50%  
+        opacity:0
+    100% 
+        opacity:1
+
+@-o-keyframes flickerAnimation
+    0%   
+        opacity:1
+    50%  
+        opacity:0
+    100% 
+        opacity:1
+
+@-moz-keyframes flickerAnimation
+    0%       
+        opacity:1
+    50%  
+        opacity:0
+    100% 
+        opacity:1
+
+@-webkit-keyframes flickerAnimation
+    0%   
+        opacity:1
+    50%  
+        opacity:0
+    100% 
+        opacity:1
+
+.animate-flicker 
+   -webkit-animation: flickerAnimation 3s infinite
+   -moz-animation: flickerAnimation 3s infinite
+   -o-animation: flickerAnimation 3s infinite
+    animation: flickerAnimation 3s infinite
+
+</style>
