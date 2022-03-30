@@ -1,0 +1,46 @@
+{
+  "hash": "7ee9418e",
+  "browserHash": "440e746e",
+  "optimized": {
+    "vue": {
+      "file": "/Users/bensayeg/Desktop/near_development/near-and-far-course/src/.vuepress/.cache/vue.js",
+      "src": "/Users/bensayeg/Desktop/near_development/near-and-far-course/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",
+      "needsInterop": false
+    },
+    "vue-router": {
+      "file": "/Users/bensayeg/Desktop/near_development/near-and-far-course/src/.vuepress/.cache/vue-router.js",
+      "src": "/Users/bensayeg/Desktop/near_development/near-and-far-course/node_modules/vue-router/dist/vue-router.esm-bundler.js",
+      "needsInterop": false
+    },
+    "@vue/devtools-api": {
+      "file": "/Users/bensayeg/Desktop/near_development/near-and-far-course/src/.vuepress/.cache/@vue_devtools-api.js",
+      "src": "/Users/bensayeg/Desktop/near_development/near-and-far-course/node_modules/@vue/devtools-api/lib/esm/index.js",
+      "needsInterop": false
+    },
+    "evtd": {
+      "file": "/Users/bensayeg/Desktop/near_development/near-and-far-course/src/.vuepress/.cache/evtd.js",
+      "src": "/Users/bensayeg/Desktop/near_development/near-and-far-course/node_modules/evtd/es/index.js",
+      "needsInterop": false
+    },
+    "vueuc": {
+      "file": "/Users/bensayeg/Desktop/near_development/near-and-far-course/src/.vuepress/.cache/vueuc.js",
+      "src": "/Users/bensayeg/Desktop/near_development/near-and-far-course/node_modules/vueuc/es/index.js",
+      "needsInterop": false
+    },
+    "vooks": {
+      "file": "/Users/bensayeg/Desktop/near_development/near-and-far-course/src/.vuepress/.cache/vooks.js",
+      "src": "/Users/bensayeg/Desktop/near_development/near-and-far-course/node_modules/vooks/es/index.js",
+      "needsInterop": false
+    },
+    "nprogress": {
+      "file": "/Users/bensayeg/Desktop/near_development/near-and-far-course/src/.vuepress/.cache/nprogress.js",
+      "src": "/Users/bensayeg/Desktop/near_development/near-and-far-course/node_modules/nprogress/nprogress.js",
+      "needsInterop": true
+    },
+    "@vuepress/shared": {
+      "file": "/Users/bensayeg/Desktop/near_development/near-and-far-course/src/.vuepress/.cache/@vuepress_shared.js",
+      "src": "/Users/bensayeg/Desktop/near_development/near-and-far-course/node_modules/@vuepress/shared/lib/esm/index.js",
+      "needsInterop": false
+    }
+  }
+}
