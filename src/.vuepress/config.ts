@@ -11,7 +11,9 @@ export default defineUserConfig<MixThemeConfig>({
   head: [['script', {}, `
     window._mfq = window._mfq || [];
     (function() {
+      if (document.getElementById('mfScript') !== null) return;
       var mf = document.createElement("script");
+      mf.id="mfScript"
       mf.type = "text/javascript"; mf.defer = true;
       mf.src = "//cdn.mouseflow.com/projects/7c7a81fc-0346-4408-8125-b1b1e6249fa8.js";
       document.getElementsByTagName("body")[0].appendChild(mf);
