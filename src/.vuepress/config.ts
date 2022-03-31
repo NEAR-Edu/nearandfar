@@ -16,7 +16,7 @@ export default defineUserConfig<MixThemeConfig>({
       mf.id="mfScript"
       mf.type = "text/javascript"; mf.defer = true;
       mf.src = "//cdn.mouseflow.com/projects/7c7a81fc-0346-4408-8125-b1b1e6249fa8.js";
-      document.getElementsByTagName("body")[0].appendChild(mf);
+      document.getElementsByTagName("head")[0].appendChild(mf);
     })();
   `]],
 
