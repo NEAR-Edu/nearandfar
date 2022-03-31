@@ -18,11 +18,7 @@ export const en: NavbarConfig = [
   {
     text: 'Activities',
     children: [
-      '/computer/',
-      '/internet/',
-      '/web2/',
-      '/web3/',
-      '/near/',
+      '/activities/'
     ],
   },
   // {

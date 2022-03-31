@@ -5,6 +5,7 @@ export const data = {
   "lang": "en-US",
   "frontmatter": {
     "home": true,
+    "heroImage": "/images/course/near_splash.jpg",
     "tagline": "An Intro course to NEAR for non-programmers",
     "actionText": "Quick Start →",
     "actionLink": "/computer/",

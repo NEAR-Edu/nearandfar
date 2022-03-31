@@ -41,26 +41,5 @@ export default defineUserConfig<MixThemeConfig>({
   // Directory Config
   dest: 'public',
 
-  // Plugins Config
-  // plugins: [
-  //   [
-  //     '@vuepress/plugin-docsearch',
-  //     {
-  //       apiKey: 'fba2ba8ba151f7d5bb1adf1e5b4b4f39',
-  //       indexName: 'vuepress-theme-mix',
-  //       locales: {
-  //         '/': {
-  //           placeholder: 'Search Documentation',
-  //         }
-  //       },
-  //     },
-  //   ],
-    // [
-    //   '@vuepress/plugin-google-analytics',
-    //   {
-    //     // we have multiple deployments, which would use different id
-    //     id: process.env.GA_ID,
-    //   },
-    // ],
-  // ],
+ 
 })

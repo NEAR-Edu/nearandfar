@@ -25,11 +25,7 @@ export const themeData = {
         {
           "text": "Activities",
           "children": [
-            "/computer/",
-            "/internet/",
-            "/web2/",
-            "/web3/",
-            "/near/"
+            "/activities/"
           ]
         }
       ],
