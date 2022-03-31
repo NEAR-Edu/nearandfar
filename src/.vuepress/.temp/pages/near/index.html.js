@@ -73,20 +73,23 @@ export const data = {
       "title": "Epilogue",
       "slug": "epilogue",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "What Next?",
+      "slug": "what-next",
+      "children": []
     }
   ],
+  "git": {
+    "updatedTime": 1648742959000,
+    "contributors": [
+      {
+        "name": "humanman",
+        "email": "bensayeg@gmail.com",
+        "commits": 1
+      }
+    ]
+  },
   "filePathRelative": "near/README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

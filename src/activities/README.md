@@ -4,7 +4,7 @@ No matter what you end up doing in web3, you will eventually need to understand 
 
 Just remember, source code is just a set of instructions. It’s written by humans, and should be readable by humans.
 
-## 🔎 Scavenger Hunt
+## :mag_right: Scavenger Hunt
 
 We all know what a scavenger hunts are. They task us with finding certain things in unfamiliar territory. It’s a great way to explore unfamiliar spaces, and that’s exactly what we will be doing today.
 

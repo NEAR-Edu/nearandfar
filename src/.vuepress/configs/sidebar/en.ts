@@ -15,17 +15,16 @@ export const en: SidebarConfig = {
       ],
     },
   ],
-  // '/computer/': [
-  //   {
-  //     type: 'group',
-  //     text: 'Sections',
-  //     link: '',
-  //     children: [
-  //       '',
-  //       '/internet'
-  //     ],
-  //   },
-  // ],
+  '/activities/': [
+    {
+      type: 'group',
+      text: 'Sections',
+      link: '',
+      children: [
+        ''
+      ],
+    },
+  ],
 
   '/configuration/': [
     {

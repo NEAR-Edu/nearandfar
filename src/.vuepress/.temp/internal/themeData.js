@@ -44,6 +44,16 @@ export const themeData = {
             ]
           }
         ],
+        "/activities/": [
+          {
+            "type": "group",
+            "text": "Sections",
+            "link": "",
+            "children": [
+              ""
+            ]
+          }
+        ],
         "/configuration/": [
           {
             "type": "link-group",
@@ -70,17 +80,4 @@ export const themeData = {
   },
   "home": "/",
   "navbar": []
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateThemeData) {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ themeData }) => {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  })
 }

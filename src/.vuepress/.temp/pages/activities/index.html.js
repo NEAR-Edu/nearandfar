@@ -8,8 +8,8 @@ export const data = {
   "headers": [
     {
       "level": 2,
-      "title": "🔎 Scavenger Hunt",
-      "slug": "🔎-scavenger-hunt",
+      "title": "🔎 Scavenger Hunt",
+      "slug": "scavenger-hunt",
       "children": []
     },
     {
@@ -31,18 +31,15 @@ export const data = {
       "children": []
     }
   ],
+  "git": {
+    "updatedTime": 1648749093000,
+    "contributors": [
+      {
+        "name": "humanman",
+        "email": "bensayeg@gmail.com",
+        "commits": 1
+      }
+    ]
+  },
   "filePathRelative": "activities/README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

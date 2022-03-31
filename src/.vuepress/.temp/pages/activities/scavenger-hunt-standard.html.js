@@ -6,18 +6,15 @@ export const data = {
   "frontmatter": {},
   "excerpt": "",
   "headers": [],
+  "git": {
+    "updatedTime": 1648749093000,
+    "contributors": [
+      {
+        "name": "humanman",
+        "email": "bensayeg@gmail.com",
+        "commits": 1
+      }
+    ]
+  },
   "filePathRelative": "activities/scavenger-hunt-standard.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

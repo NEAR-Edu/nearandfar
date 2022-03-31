@@ -417,6 +417,24 @@
 </ul>
 </li>
 </ul>
+<h2 id="what-next" tabindex="-1"><a class="header-anchor" href="#what-next" aria-hidden="true">#</a> What Next?</h2>
+<ul>
+<li>
+<p><RouterLink to="/activities/">Smart Contract Scavenger Hunt</RouterLink></p>
+</li>
+<li>
+<p><a href="//near.university" target="_blank" rel="noopener noreferrer">Check our NEAR University</a></p>
+</li>
+<li>
+<p><a href="//near.academy/" target="_blank" rel="noopener noreferrer">Keep Learning!</a></p>
+</li>
+<li>
+<p><a href="//airtable.com/shrr8CbYRDHflkgI9?prefill_schedule=rec36OOvSYh1Roh8n" target="_blank" rel="noopener noreferrer">Take an NEAR Certification course</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/playlist?list=PLhQjrBD2T383f9scHRNYJkior2VvYjpSL" target="_blank" rel="noopener noreferrer">Learn the Fundamentals of Computer Science</a></p>
+</li>
+</ul>
 </template>
 
 <style lang="sass">

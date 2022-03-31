@@ -1,7 +1,7 @@
 <template><h1 id="exploring-contracts" tabindex="-1"><a class="header-anchor" href="#exploring-contracts" aria-hidden="true">#</a> Exploring Contracts</h1>
 <p>No matter what you end up doing in web3, you will eventually need to understand what’s going on in a smart contract since it connects us to the blockchain.</p>
 <p>Just remember, source code is just a set of instructions. It’s written by humans, and should be readable by humans.</p>
-<h2 id="🔎-scavenger-hunt" tabindex="-1"><a class="header-anchor" href="#🔎-scavenger-hunt" aria-hidden="true">#</a> 🔎 Scavenger Hunt</h2>
+<h2 id="scavenger-hunt" tabindex="-1"><a class="header-anchor" href="#scavenger-hunt" aria-hidden="true">#</a> 🔎 Scavenger Hunt</h2>
 <p>We all know what a scavenger hunts are. They task us with finding certain things in unfamiliar territory. It’s a great way to explore unfamiliar spaces, and that’s exactly what we will be doing today.</p>
 <p>This exercise is about getting familiar reading code. There is no writing code, but by the end, you will be able to make sense and reason about what is going on a simple AssemblyScript contract.</p>
 <p>Just pretend you’re strolling through a museum looking at art.</p>
