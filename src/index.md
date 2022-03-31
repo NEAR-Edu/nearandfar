@@ -1,11 +1,71 @@
 ---
 home: true
-# heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: /images/course/near_splash.jpg
 tagline: An Intro course to NEAR for non-programmers
 actionText: Quick Start →
 actionLink: /computer/
 footer: Made by Ben with ❤️
 ---
+
+<style lang="sass">
+.asset-container
+    display: flex
+    justify-content: center
+    align-items: center
+    margin: 1rem
+
+.asset-container img 
+    width: 100%
+    max-width: 450px
+
+.asset-container img.slide 
+    width: 100%
+    max-width: 80vw
+
+.asset-container img.flex-multi-row
+    width: 100%
+    max-width: 30%
+
+@keyframes flickerAnimation 
+    0%   
+        opacity:1
+    50%  
+        opacity:0
+    100% 
+        opacity:1
+
+@-o-keyframes flickerAnimation
+    0%   
+        opacity:1
+    50%  
+        opacity:0
+    100% 
+        opacity:1
+
+@-moz-keyframes flickerAnimation
+    0%       
+        opacity:1
+    50%  
+        opacity:0
+    100% 
+        opacity:1
+
+@-webkit-keyframes flickerAnimation
+    0%   
+        opacity:1
+    50%  
+        opacity:0
+    100% 
+        opacity:1
+
+.animate-flicker 
+   -webkit-animation: flickerAnimation 3s infinite
+   -moz-animation: flickerAnimation 3s infinite
+   -o-animation: flickerAnimation 3s infinite
+    animation: flickerAnimation 3s infinite
+
+</style>
+
 
 ## Welcome to the Course!
 
@@ -41,51 +101,77 @@ You might even be considering attending a NEAR certification course, but already
 
 1. **You and your Computer** :computer: 
 
-    - _Today computers take many different forms beyond laptops, tablets, and phones. The microchip to track your pet if they get lost? That’s a computer. Your AirPods are actually two computers, but they behave as one. These tiny computers are inside so many things we touch, but what are they? How can we learn to see them clearly?_
+
+<div class="asset-container">
+    <img :src="$withBase('/images/course/pc_vint.gif')" alt="vintage computer">
+</div>
+
+
+- _Today computers take many different forms beyond laptops, tablets, and phones. The microchip to track your pet if they get lost? That’s a computer. Your AirPods are actually two computers, but they behave as one. These tiny computers are inside so many things we touch, but what are they? How can we learn to see them clearly?_
 
 ---
 
-2. **You and the Internet** :computer: :telephone_receiver: :computer: 
+1. **You and the Internet** :computer: :telephone_receiver: :computer: 
 
-    - _We often use the internet and web interchangeably, but in fact these are different things._ 
-        - "The internet" refers to the _infrastructure_ 
-            - **a network of networks** with rules for communicating, which keeps the web accessible at all times.
+<div class="asset-container">
+    <img :src="$withBase('/images/course/arpanet.jpg')" alt="vintage computer">
+</div>
 
-    - _The **web**, the pages we browse when we're online, is built on top of the internet._ 
 
----
+ - _We often use the internet and web interchangeably, but in fact these are different things._ 
+     - "The internet" refers to the _infrastructure_ 
+         - **a network of networks** with rules for communicating, which keeps the web accessible at all times.
 
-3. **You and Web2.0** :spider_web: 
-
-    - _Once we start talking about browsers and web pages, we are in the domain of the modern web._ 
-
-    - _You've heard of servers, but when we talk about using those servers to access and share information, we can start to see the differences between infrastructure and how it's used:_
-        - the internet (infrastructure) = highway
-        - the web (information) = rush hour, and billboards, and buses - oh my!
+ - _The **web**, the pages we browse when we're online, is built on top of the internet._ 
 
 ---
 
+1. **You and Web2.0** :spider_web: 
 
-4. **You and Web3.0** :question: :spider_web::question: 
+<div class="asset-container">
+    <img :src="$withBase('/images/course/modern-web.jpeg')" alt="modern web">
+</div>
 
-    - _Now that we understand that visiting a web site(Web2.0) is different than the WiFi(Internet) that brought it to your device(computer), we can start to imagine other ways to connect to each other. That's exactly what Web3.0, or Web3, is doing. It's re-imagining the web!_
 
-    - _When we talk about the “open web” we are talking about a system in which users have both freedom and transparency. As opposed to the "closed" systems used by certain governments to limit free access to information, the open web is designed to be a cooperative effort among a community of users and builders_
+ - _Once we start talking about browsers and web pages, we are in the domain of the modern web._ 
 
-    - _Why is Web3 so powerful and important? Because it has the ability to side-step centralized power structures that govern the internet. Web3 is all about open access to information with a level of privacy not attainable previously. Getting around Big Brother is a pretty big deal, isn’t it?_
-
-    - _Why is it called Web3? Today, Web3 generally refers to a type of network (of networks) that is still accessed through the existing internet, but with very different rules. Until Web3 fully breaks away from centralization, we can think of it and its infrastructure as another type of highway (like web2.0), but one where the toll roads pay YOU!_ 
+ - _You've heard of servers, but when we talk about using those servers to access and share information, we can start to see the differences between infrastructure and how it's used:_
+     - the internet (infrastructure) = highway
+     - the web (information) = rush hour, and billboards, and buses - oh my!
 
 ---
 
-5. **You and NEAR Protocol** :rocket: 
 
-    - _If Web3 is a decentralized network, then what are the rules of engagement?_
-    
-    - _It's an exciting time for Web3. By now you've seen dozens of ads that mention cryptocurrency. You may have scratched your head at whatever an NFT is, or perhaps gawked at the idea of pixel art selling for millions of dollars in “imaginary” money with silly names like Dogecoin, Ethereum, or even NEAR._
-    
-    - _There’s a ton of activity in the Web3 space, but does one actually use it like you use the internet today?_
+1. **You and Web3.0** :question: :spider_web::question: 
 
-    - _Decentralized networks can pretty much make up their own rules of engagement, so long as the outside world can access the information passing through them._
-    
-    - _NEAR Protocol is exactly that - it's a system of distributed networks with its own rules, or **protocol**, for communicating._
+<div class="asset-container">
+    <img :src="$withBase('/images/course/web-3.jpg')" alt="web 3">
+</div>
+
+
+ - _Now that we understand that visiting a web site(Web2.0) is different than the WiFi(Internet) that brought it to your device(computer), we can start to imagine other ways to connect to each other. That's exactly what Web3.0, or Web3, is doing. It's re-imagining the web!_
+
+ - _When we talk about the “open web” we are talking about a system in which users have both freedom and transparency. As opposed to the "closed" systems used by certain governments to limit free access to information, the open web is designed to be a cooperative effort among a community of users and builders_
+
+ - _Why is Web3 so powerful and important? Because it has the ability to side-step centralized power structures that govern the internet. Web3 is all about open access to information with a level of privacy not attainable previously. Getting around Big Brother is a pretty big deal, isn’t it?_
+
+ - _Why is it called Web3? Today, Web3 generally refers to a type of network (of networks) that is still accessed through the existing internet, but with very different rules. Until Web3 fully breaks away from centralization, we can think of it and its infrastructure as another type of highway (like web2.0), but one where the toll roads pay YOU!_ 
+
+---
+
+1. **You and NEAR Protocol** :rocket: 
+
+<div class="asset-container">
+    <img :src="$withBase('/images/course/near_layers.jpeg')" alt="NEAR">
+</div>
+
+
+ - _If Web3 is a decentralized network, then what are the rules of engagement?_
+ 
+ - _It's an exciting time for Web3. By now you've seen dozens of ads that mention cryptocurrency. You may have scratched your head at whatever an NFT is, or perhaps gawked at the idea of pixel art selling for millions of dollars in “imaginary” money with silly names like Dogecoin, Ethereum, or even NEAR._
+ 
+ - _There’s a ton of activity in the Web3 space, but does one actually use it like you use the internet today?_
+
+ - _Decentralized networks can pretty much make up their own rules of engagement, so long as the outside world can access the information passing through them._
+ 
+ - _NEAR Protocol is exactly that - it's a system of distributed networks with its own rules, or **protocol**, for communicating._
