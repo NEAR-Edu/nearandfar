@@ -384,3 +384,62 @@
 </li>
 </ul>
 </template>
+
+<style lang="sass">
+.asset-container
+    display: flex
+    justify-content: center
+    align-items: center
+    margin: 1rem
+
+.asset-container img 
+    width: 100%
+    max-width: 450px
+
+.asset-container img.slide 
+    width: 100%
+    max-width: 80vw
+
+.asset-container img.flex-multi-row
+    width: 100%
+    max-width: 30%
+
+@keyframes flickerAnimation 
+    0%   
+        opacity:1
+    50%  
+        opacity:0
+    100% 
+        opacity:1
+
+@-o-keyframes flickerAnimation
+    0%   
+        opacity:1
+    50%  
+        opacity:0
+    100% 
+        opacity:1
+
+@-moz-keyframes flickerAnimation
+    0%       
+        opacity:1
+    50%  
+        opacity:0
+    100% 
+        opacity:1
+
+@-webkit-keyframes flickerAnimation
+    0%   
+        opacity:1
+    50%  
+        opacity:0
+    100% 
+        opacity:1
+
+.animate-flicker 
+   -webkit-animation: flickerAnimation 3s infinite
+   -moz-animation: flickerAnimation 3s infinite
+   -o-animation: flickerAnimation 3s infinite
+    animation: flickerAnimation 3s infinite
+
+</style>

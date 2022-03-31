@@ -11,14 +11,14 @@ export const pagesComponents = {
   "v-fffb8e28": defineAsyncComponent(() => import(/* webpackChunkName: "v-fffb8e28" */"/Users/bensayeg/Desktop/near_development/near-and-far-course/src/.vuepress/.temp/pages/guide/index.html.vue")),
   // path: /guide/using-vue.html
   "v-79e93bb0": defineAsyncComponent(() => import(/* webpackChunkName: "v-79e93bb0" */"/Users/bensayeg/Desktop/near_development/near-and-far-course/src/.vuepress/.temp/pages/guide/using-vue.html.vue")),
-  // path: /web2/
-  "v-157f4d38": defineAsyncComponent(() => import(/* webpackChunkName: "v-157f4d38" */"/Users/bensayeg/Desktop/near_development/near-and-far-course/src/.vuepress/.temp/pages/web2/index.html.vue")),
-  // path: /near/
-  "v-15007dae": defineAsyncComponent(() => import(/* webpackChunkName: "v-15007dae" */"/Users/bensayeg/Desktop/near_development/near-and-far-course/src/.vuepress/.temp/pages/near/index.html.vue")),
-  // path: /web3/
-  "v-157f4d57": defineAsyncComponent(() => import(/* webpackChunkName: "v-157f4d57" */"/Users/bensayeg/Desktop/near_development/near-and-far-course/src/.vuepress/.temp/pages/web3/index.html.vue")),
   // path: /internet/
   "v-1c6d7635": defineAsyncComponent(() => import(/* webpackChunkName: "v-1c6d7635" */"/Users/bensayeg/Desktop/near_development/near-and-far-course/src/.vuepress/.temp/pages/internet/index.html.vue")),
+  // path: /near/
+  "v-15007dae": defineAsyncComponent(() => import(/* webpackChunkName: "v-15007dae" */"/Users/bensayeg/Desktop/near_development/near-and-far-course/src/.vuepress/.temp/pages/near/index.html.vue")),
+  // path: /web2/
+  "v-157f4d38": defineAsyncComponent(() => import(/* webpackChunkName: "v-157f4d38" */"/Users/bensayeg/Desktop/near_development/near-and-far-course/src/.vuepress/.temp/pages/web2/index.html.vue")),
+  // path: /web3/
+  "v-157f4d57": defineAsyncComponent(() => import(/* webpackChunkName: "v-157f4d57" */"/Users/bensayeg/Desktop/near_development/near-and-far-course/src/.vuepress/.temp/pages/web3/index.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"/Users/bensayeg/Desktop/near_development/near-and-far-course/src/.vuepress/.temp/pages/404.html.vue")),
 }
