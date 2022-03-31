@@ -11,7 +11,3 @@ public
 .basement
 config.local.js
 basement_dist
-
-.vuepress/.temp/
-.vuepress/.cache/
-.vuepress/dist/
