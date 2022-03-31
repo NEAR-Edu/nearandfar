@@ -39,15 +39,18 @@ export const data = {
       "children": []
     }
   ],
-  "git": {
-    "updatedTime": 1648749031000,
-    "contributors": [
-      {
-        "name": "humanman",
-        "email": "bensayeg@gmail.com",
-        "commits": 3
-      }
-    ]
-  },
   "filePathRelative": "index.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }
