@@ -1,5 +1,8 @@
 <template><h1 id="_5-you-and-near-protocol" tabindex="-1"><a class="header-anchor" href="#_5-you-and-near-protocol" aria-hidden="true">#</a> 5. You and NEAR Protocol 🎆</h1>
-<hr>
+<h2 id="introduction" tabindex="-1"><a class="header-anchor" href="#introduction" aria-hidden="true">#</a> Introduction</h2>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/near_sl_intro.png')" alt="NEAR intro" class="slide">
+</div>
 <h4 id="web3-is-a-network-of-blockchain-networks-and-near-is-one-of-them" tabindex="-1"><a class="header-anchor" href="#web3-is-a-network-of-blockchain-networks-and-near-is-one-of-them" aria-hidden="true">#</a> Web3 is a network of blockchain networks, and NEAR is one of them</h4>
 <ul>
 <li>
@@ -34,9 +37,14 @@
 </ul>
 </li>
 </ul>
-<hr>
-<h3 id="near-has-the-same-interfaces-as-other-web3-networks" tabindex="-1"><a class="header-anchor" href="#near-has-the-same-interfaces-as-other-web3-networks" aria-hidden="true">#</a> NEAR has the same interfaces as other Web3 networks</h3>
-<h4 id="protocol-layer" tabindex="-1"><a class="header-anchor" href="#protocol-layer" aria-hidden="true">#</a> protocol layer</h4>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/near_sl_mission.png')" alt="NEAR mission" class="slide">
+</div>
+<h2 id="interfaces-on-near-are-similar-to-other-web3-networks" tabindex="-1"><a class="header-anchor" href="#interfaces-on-near-are-similar-to-other-web3-networks" aria-hidden="true">#</a> Interfaces on NEAR are similar to other Web3 networks</h2>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/near_sl_layers.png')" alt="NEAR layer model" class="slide">
+</div>
+<h4 id="protocol-layer" tabindex="-1"><a class="header-anchor" href="#protocol-layer" aria-hidden="true">#</a> <strong>protocol layer</strong></h4>
 <ul>
 <li>base layer
 <ul>
@@ -53,7 +61,10 @@
 </ul>
 </li>
 </ul>
-<h4 id="infrastructure-layer" tabindex="-1"><a class="header-anchor" href="#infrastructure-layer" aria-hidden="true">#</a> infrastructure layer</h4>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/near_env.png')" alt="NEAR environments" class="slide">
+</div>
+<h4 id="infrastructure-layer" tabindex="-1"><a class="header-anchor" href="#infrastructure-layer" aria-hidden="true">#</a> <strong>infrastructure layer</strong></h4>
 <ul>
 <li>
 <p>nodes are virtual computers you can download locally</p>
@@ -97,20 +108,31 @@
 <li>account management</li>
 </ul>
 </li>
-<li>
-<p><a href="https://explorer.near.org/" target="_blank" rel="noopener noreferrer">Explorer</a></p>
+</ul>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/near_sl_wallet.png')" alt="NEAR wallet" class="slide">
+</div>
+<ul>
+<li><a href="https://explorer.near.org/" target="_blank" rel="noopener noreferrer">Explorer</a>
 <ul>
 <li>transaction history of any account</li>
 </ul>
 </li>
-<li>
-<p><a href="https://docs.near.org/docs/api/rpc" target="_blank" rel="noopener noreferrer">JSON RPC</a> (Response-Procedure-Call)</p>
+</ul>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/near_sl_exp.png')" alt="NEAR explorer" class="slide">
+</div>
+<ul>
+<li><a href="https://docs.near.org/docs/api/rpc" target="_blank" rel="noopener noreferrer">JSON RPC</a> (Response-Procedure-Call)
 <ul>
 <li>API for interacting with the blockchain</li>
 </ul>
 </li>
 </ul>
-<h4 id="use-case-layer" tabindex="-1"><a class="header-anchor" href="#use-case-layer" aria-hidden="true">#</a> use case layer</h4>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/near_rpc-diag.png')" alt="NEAR explorer" class="slide">
+</div>
+<h4 id="use-case-layer" tabindex="-1"><a class="header-anchor" href="#use-case-layer" aria-hidden="true">#</a> <strong>use case layer</strong></h4>
 <ul>
 <li>DeFi
 <ul>
@@ -132,18 +154,16 @@
 </ul>
 </li>
 </ul>
-<h4 id="access-points-layer" tabindex="-1"><a class="header-anchor" href="#access-points-layer" aria-hidden="true">#</a> access points layer</h4>
+<h4 id="access-points-layer" tabindex="-1"><a class="header-anchor" href="#access-points-layer" aria-hidden="true">#</a> <strong>access points layer</strong></h4>
 <ul>
-<li>top layer
+<li>
+<p>top layer</p>
 <ul>
 <li>Wallet</li>
 <li>Explorer</li>
 <li>JSON RPC</li>
 </ul>
 </li>
-</ul>
-<hr>
-<ul>
 <li>
 <p>NEAR's infrastructure of <strong>modules</strong> can be broken down and reconfigured for new use cases</p>
 <ul>
@@ -160,12 +180,19 @@
 </ul>
 </li>
 </ul>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/near_eco.jpeg')" alt="NEAR ecosystem" class="slide">
+</div>
 <hr>
-<h3 id="data-and-near" tabindex="-1"><a class="header-anchor" href="#data-and-near" aria-hidden="true">#</a> data and NEAR</h3>
+<h2 id="data-and-near" tabindex="-1"><a class="header-anchor" href="#data-and-near" aria-hidden="true">#</a> <strong><em>Data</em></strong> and NEAR</h2>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/near_sl_data-st.png')" alt="NEAR ecosystem" class="slide">
+</div>
 <hr>
-<ul>
-<li>
-<p><strong>data in motion</strong> 🏃</p>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/near_sl_data-states.png')" alt="NEAR ecosystem" class="slide">
+</div>
+<h3 id="data-in-motion" tabindex="-1"><a class="header-anchor" href="#data-in-motion" aria-hidden="true">#</a> <strong>data in motion</strong> 🏃</h3>
 <ul>
 <li>data travels accross many different protocols within the network
 <ul>
@@ -175,9 +202,7 @@
 </ul>
 </li>
 </ul>
-</li>
-<li>
-<p><strong>data at rest</strong> 😴</p>
+<h3 id="data-at-rest" tabindex="-1"><a class="header-anchor" href="#data-at-rest" aria-hidden="true">#</a> <strong>data at rest</strong> 😴</h3>
 <ul>
 <li>immutable data stored on chain</li>
 <li>data stored in browser local storage
@@ -202,10 +227,11 @@
 </ul>
 </li>
 </ul>
-</li>
-</ul>
 <hr>
-<h3 id="time-on-near" tabindex="-1"><a class="header-anchor" href="#time-on-near" aria-hidden="true">#</a> <em>time</em> on NEAR 🕛</h3>
+<h2 id="time-on-near" tabindex="-1"><a class="header-anchor" href="#time-on-near" aria-hidden="true">#</a> <strong><em>Time</em></strong> on NEAR 🕛</h2>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/near_sl_time-diag.png')" alt="NEAR block height" class="slide">
+</div>
 <ul>
 <li>current block height is accessible to anyone with a computer and an internet connection</li>
 <li>new blocks are added every second</li>
@@ -218,8 +244,14 @@
 </ul>
 <hr>
 <h2 id="your-relationship-with-near" tabindex="-1"><a class="header-anchor" href="#your-relationship-with-near" aria-hidden="true">#</a> Your Relationship with NEAR</h2>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/near_basics-diag.png')" alt="NEAR ecosystem" class="slide">
+</div>
 <hr>
-<h3 id="identity-on-near" tabindex="-1"><a class="header-anchor" href="#identity-on-near" aria-hidden="true">#</a> <em>identity</em> on NEAR 🤳</h3>
+<h3 id="identity" tabindex="-1"><a class="header-anchor" href="#identity" aria-hidden="true">#</a> <strong><em>Identity</em></strong> 🤳</h3>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/near_sl_id.png')" alt="NEAR Transaction diagram" class="slide">
+</div>
 <ul>
 <li>
 <p>your mainnet account (<em>yourname</em>.near) allows you to interface with any other account</p>
@@ -244,8 +276,11 @@
 </li>
 </ul>
 <hr>
-<h3 id="ownership-on-near" tabindex="-1"><a class="header-anchor" href="#ownership-on-near" aria-hidden="true">#</a> <em>ownership</em> on NEAR 🔑</h3>
-<h4 id="you-have-complete-control-of-your-account" tabindex="-1"><a class="header-anchor" href="#you-have-complete-control-of-your-account" aria-hidden="true">#</a> you have complete control of your account</h4>
+<h3 id="ownership" tabindex="-1"><a class="header-anchor" href="#ownership" aria-hidden="true">#</a> <strong><em>Ownership</em></strong> 🔑</h3>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/near_tokens.jpg')" alt="NEAR token usecases" class="slide">
+</div>
+<h4 id="you-have-complete-control-of-your-account" tabindex="-1"><a class="header-anchor" href="#you-have-complete-control-of-your-account" aria-hidden="true">#</a> <strong>you have complete control of your account</strong></h4>
 <ul>
 <li>your wallet works like a keychain</li>
 <li>you can create keys for your account
@@ -295,7 +330,7 @@
 </li>
 <li>you can delete all keys from your account, and render it inaccessible by anyone (including you!) forever</li>
 </ul>
-<h4 id="you-are-your-own-security" tabindex="-1"><a class="header-anchor" href="#you-are-your-own-security" aria-hidden="true">#</a> you are your own security 🔏</h4>
+<h4 id="you-are-your-own-security" tabindex="-1"><a class="header-anchor" href="#you-are-your-own-security" aria-hidden="true">#</a> <strong>you are your own security</strong> 🔏</h4>
 <ul>
 <li>no one can remove assets from your wallet without your permission</li>
 <li>if someone gets your private key, however, they have full access to your account
@@ -317,9 +352,9 @@
 </li>
 </ul>
 <div class="custom-container warning"><p class="custom-container-title">WARNING</p>
-<p>:female-police-officer:  <strong>Beware of phishing scams!</strong> Quite often scammers will try to trick you into revealing your password with fake wallet sites. Always check the url of the web page you are on.</p>
+<p><strong>Beware of phishing scams!</strong> Quite often scammers will try to trick you into revealing your password with fake wallet sites. Always check the url of the web page you are on.</p>
 </div>
-<h4 id="transactions-are-irreversible" tabindex="-1"><a class="header-anchor" href="#transactions-are-irreversible" aria-hidden="true">#</a> transactions are irreversible</h4>
+<h4 id="transactions-are-irreversible" tabindex="-1"><a class="header-anchor" href="#transactions-are-irreversible" aria-hidden="true">#</a> <strong>transactions are irreversible</strong></h4>
 <ul>
 <li>
 <p>if you send / receive funds <strong>no one can reverse the transaction</strong></p>
@@ -343,21 +378,20 @@
 </li>
 </ul>
 <hr>
-<h3 id="the-structure-of-near" tabindex="-1"><a class="header-anchor" href="#the-structure-of-near" aria-hidden="true">#</a> the <em>structure</em> of NEAR 🏛️</h3>
+<h2 id="structure-of-near" tabindex="-1"><a class="header-anchor" href="#structure-of-near" aria-hidden="true">#</a> <em>Structure</em> of NEAR 🏛️</h2>
 <h4 id="near-is-decentralized" tabindex="-1"><a class="header-anchor" href="#near-is-decentralized" aria-hidden="true">#</a> NEAR is <em>decentralized</em></h4>
 <ul>
 <li>NEAR is community based</li>
 <li>NEAR doesn't own any nodes on its network</li>
 </ul>
 <h4 id="near-is-part-of-web3-and-therefore-relies-on-web2-which-is-very-much-centralized" tabindex="-1"><a class="header-anchor" href="#near-is-part-of-web3-and-therefore-relies-on-web2-which-is-very-much-centralized" aria-hidden="true">#</a> NEAR is part of Web3, and therefore relies on Web2, which is very much centralized</h4>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/near_splash.jpg')" alt="NEAR ecosystem" class="slide">
+</div>
 <hr>
-<h2 id="resources" tabindex="-1"><a class="header-anchor" href="#resources" aria-hidden="true">#</a> resources:</h2>
-<p>web3 - start using Brave browser (looks and feels like Chrome) and have ads pay <em>you</em> to view them</p>
-<p>NEAR - check out what's being built on NEAR awesomenear.com</p>
+<h2 id="epilogue" tabindex="-1"><a class="header-anchor" href="#epilogue" aria-hidden="true">#</a> Epilogue</h2>
 <hr>
-<h2 id="epilogue" tabindex="-1"><a class="header-anchor" href="#epilogue" aria-hidden="true">#</a> epilogue</h2>
-<hr>
-<h4 id="what-questions-to-ask" tabindex="-1"><a class="header-anchor" href="#what-questions-to-ask" aria-hidden="true">#</a> what questions to ask?</h4>
+<h4 id="what-questions-to-ask" tabindex="-1"><a class="header-anchor" href="#what-questions-to-ask" aria-hidden="true">#</a> <strong>what questions to ask?</strong></h4>
 <ul>
 <li>remember, although we are building something new, the ideas have been around for a long time.
 <ul>
@@ -403,6 +437,9 @@
 .asset-container img.flex-multi-row
     width: 100%
     max-width: 30%
+
+.p-rel 
+    position: relative
 
 @keyframes flickerAnimation 
     0%   

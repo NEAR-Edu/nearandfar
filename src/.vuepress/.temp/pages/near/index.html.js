@@ -7,20 +7,39 @@ export const data = {
   "excerpt": "",
   "headers": [
     {
-      "level": 3,
-      "title": "NEAR has the same interfaces as other Web3 networks",
-      "slug": "near-has-the-same-interfaces-as-other-web3-networks",
+      "level": 2,
+      "title": "Introduction",
+      "slug": "introduction",
       "children": []
     },
     {
-      "level": 3,
-      "title": "data and NEAR",
+      "level": 2,
+      "title": "Interfaces on NEAR are similar to other Web3 networks",
+      "slug": "interfaces-on-near-are-similar-to-other-web3-networks",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Data and NEAR",
       "slug": "data-and-near",
-      "children": []
+      "children": [
+        {
+          "level": 3,
+          "title": "data in motion 🏃",
+          "slug": "data-in-motion",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "data at rest 😴",
+          "slug": "data-at-rest",
+          "children": []
+        }
+      ]
     },
     {
-      "level": 3,
-      "title": "time on NEAR 🕛",
+      "level": 2,
+      "title": "Time on NEAR 🕛",
       "slug": "time-on-near",
       "children": []
     },
@@ -31,33 +50,27 @@ export const data = {
       "children": [
         {
           "level": 3,
-          "title": "identity on NEAR 🤳",
-          "slug": "identity-on-near",
+          "title": "Identity 🤳",
+          "slug": "identity",
           "children": []
         },
         {
           "level": 3,
-          "title": "ownership on NEAR 🔑",
-          "slug": "ownership-on-near",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "the structure of NEAR 🏛️",
-          "slug": "the-structure-of-near",
+          "title": "Ownership 🔑",
+          "slug": "ownership",
           "children": []
         }
       ]
     },
     {
       "level": 2,
-      "title": "resources:",
-      "slug": "resources",
+      "title": "Structure of NEAR 🏛️",
+      "slug": "structure-of-near",
       "children": []
     },
     {
       "level": 2,
-      "title": "epilogue",
+      "title": "Epilogue",
       "slug": "epilogue",
       "children": []
     }
