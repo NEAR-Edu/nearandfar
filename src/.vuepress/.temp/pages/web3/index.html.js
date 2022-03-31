@@ -7,46 +7,73 @@ export const data = {
   "excerpt": "",
   "headers": [
     {
-      "level": 3,
-      "title": "Web3 is the decentralized or \"open\" web 👐",
-      "slug": "web3-is-the-decentralized-or-open-web",
-      "children": []
+      "level": 2,
+      "title": "Introduction",
+      "slug": "introduction",
+      "children": [
+        {
+          "level": 3,
+          "title": "Web3 is the decentralized or \"open\" web 👐",
+          "slug": "web3-is-the-decentralized-or-open-web",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Organization of Web3",
+          "slug": "organization-of-web3",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Interconnected layers of Web3",
+          "slug": "interconnected-layers-of-web3",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Web3 needs Web2... for now",
+          "slug": "web3-needs-web2-for-now",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Let's finally talk about the \"blockchain\"",
+          "slug": "let-s-finally-talk-about-the-blockchain",
+          "children": []
+        }
+      ]
     },
     {
-      "level": 3,
-      "title": "Web3 is composed of interconnected layers",
-      "slug": "web3-is-composed-of-interconnected-layers",
-      "children": []
-    },
-    {
-      "level": 3,
-      "title": "Web3 needs Web2... for now 🤝",
-      "slug": "web3-needs-web2-for-now",
-      "children": []
-    },
-    {
-      "level": 3,
-      "title": "let's finally talk about the \"blockchain\"",
-      "slug": "let-s-finally-talk-about-the-blockchain",
-      "children": []
-    },
-    {
-      "level": 3,
-      "title": "data and Web3",
+      "level": 2,
+      "title": "Data and Web3",
       "slug": "data-and-web3",
-      "children": []
+      "children": [
+        {
+          "level": 3,
+          "title": "Data in motion",
+          "slug": "data-in-motion",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Data at rest",
+          "slug": "data-at-rest",
+          "children": []
+        }
+      ]
     },
     {
-      "level": 3,
-      "title": "time and Web3 🕥",
+      "level": 2,
+      "title": "Time and Web3 🕥",
       "slug": "time-and-web3",
-      "children": []
-    },
-    {
-      "level": 3,
-      "title": "the blockchain is...",
-      "slug": "the-blockchain-is-1",
-      "children": []
+      "children": [
+        {
+          "level": 3,
+          "title": "Time is measured in block height",
+          "slug": "time-is-measured-in-block-height",
+          "children": []
+        }
+      ]
     },
     {
       "level": 2,
@@ -55,22 +82,22 @@ export const data = {
       "children": [
         {
           "level": 3,
-          "title": "identity on Web3 🤳",
-          "slug": "identity-on-web3",
+          "title": "Identity 🤳",
+          "slug": "identity",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Ownership 🔑",
+          "slug": "ownership",
           "children": []
         }
       ]
     },
     {
       "level": 2,
-      "title": "ownership on Web3 🔑",
-      "slug": "ownership-on-web3",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "the structure of Web3 🏛️",
-      "slug": "the-structure-of-web3",
+      "title": "Structure of Web3 🏛️",
+      "slug": "structure-of-web3",
       "children": []
     }
   ],

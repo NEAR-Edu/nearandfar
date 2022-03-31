@@ -1,4 +1,11 @@
 <template><h1 id="_4-you-and-web3-0" tabindex="-1"><a class="header-anchor" href="#_4-you-and-web3-0" aria-hidden="true">#</a> 4. You and Web3.0</h1>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/web3_crypto-hist.png')" alt="history of crypto">
+</div>
+<h2 id="introduction" tabindex="-1"><a class="header-anchor" href="#introduction" aria-hidden="true">#</a> Introduction</h2>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/web3_sl_intro.png')" alt="web 3 intro" class="slide">
+</div>
 <hr>
 <h3 id="web3-is-the-decentralized-or-open-web" tabindex="-1"><a class="header-anchor" href="#web3-is-the-decentralized-or-open-web" aria-hidden="true">#</a> Web3 is the <em>decentralized</em> or &quot;open&quot; web 👐</h3>
 <ul>
@@ -28,11 +35,14 @@
 </ul>
 </li>
 </ul>
-<h4 id="network-of-computers-across-the-globe-act-as-one-computer-sharing-a-single-state" tabindex="-1"><a class="header-anchor" href="#network-of-computers-across-the-globe-act-as-one-computer-sharing-a-single-state" aria-hidden="true">#</a> network of computers across the globe act as one computer sharing a single state</h4>
-<p>:::info</p>
-<h4 id="thinking-face-what-s-state-in-the-neighborhood-analogy" tabindex="-1"><a class="header-anchor" href="#thinking-face-what-s-state-in-the-neighborhood-analogy" aria-hidden="true">#</a> :thinking_face: what's &quot;state&quot; in the neighborhood analogy?</h4>
+<h4 id="a-network-of-computers-across-the-globe-act-as-one-computer-sharing-a-single-state" tabindex="-1"><a class="header-anchor" href="#a-network-of-computers-across-the-globe-act-as-one-computer-sharing-a-single-state" aria-hidden="true">#</a> A network of computers across the globe act as one computer sharing a single state</h4>
+<div class="asset-container p-rel">
+    <img :src="$withBase('/images/course/web3_sl_org.png')" alt="web 3 organization" class="slide">
+    <img :src="$withBase('/images/course/web3_walle.gif')" alt="wall-e gif" style="position:absolute; top: 20%; left: .2%;">
+</div>
+<div class="custom-container tip"><p class="custom-container-title">what's "state" in the neighborhood analogy?</p>
 <p>When a new house is built in your neighborhood, all the phone books need to update to reflect the new addition. So, a new phone book is sent out to all the neighbors with the address, etc. of the new house.</p>
-<p>:::</p>
+</div>
 <ul>
 <li>change state of one, you change state of all
 <ul>
@@ -46,11 +56,21 @@
 </li>
 </ul>
 <h4 id="web3-interfaces-are-accessed-using-web3-accounts" tabindex="-1"><a class="header-anchor" href="#web3-interfaces-are-accessed-using-web3-accounts" aria-hidden="true">#</a> Web3 <em>interfaces</em> are accessed using Web3 accounts</h4>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/web3_sl_el5.png')" alt="web 3 intro" class="slide">
+</div>
 <ul>
 <li>&quot;log in with your email&quot; becomes &quot;log in with your Web3 wallet&quot;</li>
 <li>connections to Web3 architecture occur through http connections and <strong>smart contracts</strong></li>
 </ul>
-<h4 id="contract-interfaces-manage-changes-in-state" tabindex="-1"><a class="header-anchor" href="#contract-interfaces-manage-changes-in-state" aria-hidden="true">#</a> contract <em>interfaces</em> manage changes in state</h4>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/web3_sl_interfaces.png')" alt="smart contracts" class="slide">
+</div>
+<hr>
+<h3 id="organization-of-web3" tabindex="-1"><a class="header-anchor" href="#organization-of-web3" aria-hidden="true">#</a> Organization of Web3</h3>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/web3_sl_smrt-ct.png')" alt="smart contracts" class="slide">
+</div>
 <ul>
 <li>they are a set of instructions (like any other program) for updating state/data/transaction history</li>
 <li>the updates that nodes gossip about are triggered by methods in these contracts</li>
@@ -63,11 +83,13 @@
 </li>
 </ul>
 <hr>
-<h3 id="web3-is-composed-of-interconnected-layers" tabindex="-1"><a class="header-anchor" href="#web3-is-composed-of-interconnected-layers" aria-hidden="true">#</a> Web3 is composed of interconnected layers</h3>
+<h3 id="interconnected-layers-of-web3" tabindex="-1"><a class="header-anchor" href="#interconnected-layers-of-web3" aria-hidden="true">#</a> Interconnected layers of Web3</h3>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/web3_layers.png')" alt="web 3 layer model">
+</div>
 <ul>
 <li>these layers behave like <strong>modules</strong> and can be broken apart and reconfigured to create new use cases</li>
 </ul>
-<p><em><strong>[REVIEW SHERIF'S ZOOM ORIENTATION FROM 3/04/22 ~ 37min in. He talks about the effects of mixing Time, ownership, identity - use here!!]</strong></em></p>
 <h4 id="protocol-layer" tabindex="-1"><a class="header-anchor" href="#protocol-layer" aria-hidden="true">#</a> protocol layer</h4>
 <ul>
 <li>base layer</li>
@@ -109,7 +131,12 @@
 <li>users sign into their account(s) and send / receive crypto-currency</li>
 </ul>
 <hr>
-<h3 id="web3-needs-web2-for-now" tabindex="-1"><a class="header-anchor" href="#web3-needs-web2-for-now" aria-hidden="true">#</a> Web3 needs Web2... for now 🤝</h3>
+<h3 id="web3-needs-web2-for-now" tabindex="-1"><a class="header-anchor" href="#web3-needs-web2-for-now" aria-hidden="true">#</a> Web3 needs Web2... for now</h3>
+<div class="asset-container p-rel">
+    <img :src="$withBase('/images/course/web3_web2.jpeg')" alt="handshake meme">
+    <p style="position:absolute;bottom:5%;left:35%;font-weight:bold;color:#fff;">Web2</p>
+    <p style="position:absolute;bottom:5%;right:35%;font-weight:bold;color:#fff;">Web3</p>
+</div>
 <ul>
 <li>Web3 infrastructure is different than web2, but still new and generally limited, so it can't operate without web2 yet
 <ul>
@@ -119,69 +146,44 @@
 </li>
 </ul>
 <hr>
-<h3 id="let-s-finally-talk-about-the-blockchain" tabindex="-1"><a class="header-anchor" href="#let-s-finally-talk-about-the-blockchain" aria-hidden="true">#</a> let's finally talk about the &quot;blockchain&quot;</h3>
-<p>is it a ledger? ✔️
-is it a database? ✔️</p>
-<h4 id="the-blockchain-is" tabindex="-1"><a class="header-anchor" href="#the-blockchain-is" aria-hidden="true">#</a> the blockchain is..</h4>
+<h3 id="let-s-finally-talk-about-the-blockchain" tabindex="-1"><a class="header-anchor" href="#let-s-finally-talk-about-the-blockchain" aria-hidden="true">#</a> Let's finally talk about the &quot;blockchain&quot;</h3>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/web3_sl_blockchain.png')" alt="Blockchain" class="slide">
+</div>
+<h4 id="the-blockchain-is" tabindex="-1"><a class="header-anchor" href="#the-blockchain-is" aria-hidden="true">#</a> The blockchain is..</h4>
 <ul>
 <li>transaction history</li>
 </ul>
 <p>the blockchain is like a stack of milk crates with each crate containing piles of various transaction receipts. The stack of crates gets higher with every new batch of receipts.</p>
-<p>:::info
-📑 Imagine if instead of receiving a new phone book every time a new neighbor moves in / out, you (and everyone you know) receives a single page from the phone book with just the updated information.
-:::</p>
+<div class="custom-container tip"><p class="custom-container-title">If the Phone Book behaved like a blockchain</p>
+<p>Imagine if instead of receiving a new phone book every time a new neighbor moves in / out, you (and everyone you know) receives a single page from the phone book with just the updated information.</p>
+</div>
 <hr>
-<h3 id="data-and-web3" tabindex="-1"><a class="header-anchor" href="#data-and-web3" aria-hidden="true">#</a> <em>data</em> and Web3</h3>
+<h2 id="data-and-web3" tabindex="-1"><a class="header-anchor" href="#data-and-web3" aria-hidden="true">#</a> <em>Data</em> and Web3</h2>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/web3_data-st.jpeg')" alt="Data from Star Trek">
+</div>
 <hr>
-<ul>
-<li>
-<p><strong>data in motion</strong> 🏃</p>
-<ul>
-<li><em>data-as-state</em> alerting each node in the network</li>
-<li>state copied over and over to every node</li>
-<li>state changes create a <em>new</em> phone book
-<ul>
-<li>you can see the entire history of the data</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>data at rest</strong> 😴</p>
-<ul>
-<li>
-<p>data stored &quot;on chain&quot; remains in tact forever</p>
-<ul>
-<li>you can view it, but you can't <em>change</em> its history
-<ul>
-<li><em>you can build a house on an ancient burial ground, but you can't change the fact that there was an ancient burial ground where you built your house</em></li>
-</ul>
-</li>
-<li>updating data means creating a new entry in its transaction history</li>
-</ul>
-</li>
-<li>
-<p>not all Web3 data is stored on the blockchain</p>
-<ul>
-<li>conventional data storage solutions still in heavy use
-<ul>
-<li>browser storage</li>
-<li>(centralized) database storage</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+<h3 id="data-in-motion" tabindex="-1"><a class="header-anchor" href="#data-in-motion" aria-hidden="true">#</a> <strong>Data in motion</strong></h3>
+<div class="asset-container p-rel">
+    <img :src="$withBase('/images/course/web3_sl_data-in-motion.png')" alt="Web3 data in motion" class="slide">
+    <img :src="$withBase('/images/course/web3_gossip.gif')" alt="Gossip protocol" style="position:absolute; right: 0;top: 10%;">
+</div>
+<h3 id="data-at-rest" tabindex="-1"><a class="header-anchor" href="#data-at-rest" aria-hidden="true">#</a> <strong>Data at rest</strong></h3>
+<div class="asset-container p-rel">
+    <img :src="$withBase('/images/course/web3_sl_data-at-rest.png')" alt="Web3 data at rest" class="slide">
+    <img :src="$withBase('/images/course/web3_data-at-rest.png')" alt="web3 data diagram" style="position:absolute; left: 0;top: 30%;">
+</div>
 <hr>
-<h3 id="time-and-web3" tabindex="-1"><a class="header-anchor" href="#time-and-web3" aria-hidden="true">#</a> <em>time</em> and Web3 🕥</h3>
-<hr>
-<h3 id="the-blockchain-is-1" tabindex="-1"><a class="header-anchor" href="#the-blockchain-is-1" aria-hidden="true">#</a> the blockchain is...</h3>
+<h2 id="time-and-web3" tabindex="-1"><a class="header-anchor" href="#time-and-web3" aria-hidden="true">#</a> <em>Time</em> and Web3 🕥</h2>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/web3_sl_time.png')" alt="consensus diagram" class="slide">
+</div>
+<h4 id="the-blockchain-is-1" tabindex="-1"><a class="header-anchor" href="#the-blockchain-is-1" aria-hidden="true">#</a> The blockchain is...</h4>
 <ul>
 <li>a clock 🤯</li>
 </ul>
-<h4 id="time-is-measured-in-block-height" tabindex="-1"><a class="header-anchor" href="#time-is-measured-in-block-height" aria-hidden="true">#</a> time is measured in <em>block height</em></h4>
+<h3 id="time-is-measured-in-block-height" tabindex="-1"><a class="header-anchor" href="#time-is-measured-in-block-height" aria-hidden="true">#</a> Time is measured in <em>block height</em></h3>
 <ul>
 <li>each block added to the chain increases its height</li>
 <li>some blockchains add a new block at a constant rate even if the block is empty of updates to transaction history
@@ -194,7 +196,9 @@ is it a database? ✔️</p>
 </ul>
 </li>
 </ul>
-<h4 id="consensus-among-the-nodes-i-e-50-sets-the-current-block-height-time" tabindex="-1"><a class="header-anchor" href="#consensus-among-the-nodes-i-e-50-sets-the-current-block-height-time" aria-hidden="true">#</a> consensus among the nodes (i.e. &gt;50%) sets the current block height (time)</h4>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/web3_sl_time-2.png')" alt="consensus diagram" class="slide">
+</div>
 <ul>
 <li>
 <p>community board meetings exist for the purpose of finding consensus community-related initiatives. Community-based blockchain networks are no different, and people don't always agree</p>
@@ -233,6 +237,9 @@ is it a database? ✔️</p>
 </li>
 </ul>
 <h4 id="trustless-proofs-provide-integrity-of-the-blockchain-so-you-can-trust-the-time-it-gives" tabindex="-1"><a class="header-anchor" href="#trustless-proofs-provide-integrity-of-the-blockchain-so-you-can-trust-the-time-it-gives" aria-hidden="true">#</a> trustless proofs provide integrity of the blockchain so you can trust the time it gives</h4>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/web3_pow-pos.jpeg')" alt="types of consensus protocols" class="slide">
+</div>
 <ul>
 <li>proof that a transaction is valid can be achieved through cryptography
 <ul>
@@ -256,8 +263,15 @@ is it a database? ✔️</p>
 </ul>
 <hr>
 <h2 id="your-relationship-with-web3" tabindex="-1"><a class="header-anchor" href="#your-relationship-with-web3" aria-hidden="true">#</a> Your Relationship with Web3</h2>
-<hr>
-<h3 id="identity-on-web3" tabindex="-1"><a class="header-anchor" href="#identity-on-web3" aria-hidden="true">#</a> <em>identity</em> on Web3 🤳</h3>
+<p style="font-size:2vw"> <strong>time</strong>: enabled by a chain of discrete “data moments”</p>
+<p style="font-size:2vw"> <strong>identity</strong>: enabled by public/private key cryptography</p>
+<p style="font-size:2vw"> <strong>money</strong>: time + value</p>
+<p style="font-size:2vw"> <strong>ownership</strong>: identity + money</p>
+<p style="font-size:2vw"> <strong>provenance</strong>: identity + money + time</p>
+<h3 id="identity" tabindex="-1"><a class="header-anchor" href="#identity" aria-hidden="true">#</a> <em>Identity</em> 🤳</h3>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/web3_id.png')" alt="types of identification protocols" class="slide">
+</div>
 <ul>
 <li>your web3 account is your identity</li>
 <li>no Oauth</li>
@@ -270,7 +284,10 @@ is it a database? ✔️</p>
 <li>active engagement in the community is core to a successful, community-run web</li>
 </ul>
 <hr>
-<h2 id="ownership-on-web3" tabindex="-1"><a class="header-anchor" href="#ownership-on-web3" aria-hidden="true">#</a> <em>ownership</em> on Web3 🔑</h2>
+<h3 id="ownership" tabindex="-1"><a class="header-anchor" href="#ownership" aria-hidden="true">#</a> <em>Ownership</em> 🔑</h3>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/web3_own.png')" alt="diagram of ownership in web3" class="slide">
+</div>
 <ul>
 <li>
 <p><em>you</em> own your data, and <em>you</em> own the network</p>
@@ -305,7 +322,10 @@ is it a database? ✔️</p>
 </li>
 </ul>
 <hr>
-<h2 id="the-structure-of-web3" tabindex="-1"><a class="header-anchor" href="#the-structure-of-web3" aria-hidden="true">#</a> the <em>structure</em> of Web3 🏛️</h2>
+<h2 id="structure-of-web3" tabindex="-1"><a class="header-anchor" href="#structure-of-web3" aria-hidden="true">#</a> <em>Structure</em> of Web3 🏛️</h2>
+<div class="asset-container">
+    <img :src="$withBase('/images/course/web3_struct.png')" alt="centralized vs decentralized internet" class="slide">
+</div>
 <ul>
 <li>
 <p>Web3 is <em>decentralized</em></p>
@@ -346,6 +366,9 @@ is it a database? ✔️</p>
 .asset-container img.flex-multi-row
     width: 100%
     max-width: 30%
+
+.p-rel 
+    position: relative
 
 @keyframes flickerAnimation 
     0%   
