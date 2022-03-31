@@ -351,3 +351,16 @@
             - probably a computer in a network
         - did you know "node" could also refer to a programming language called NodeJs?
             - many contracts are built in a "node environment". When you hear "environment" it's usually a clue that they are talking about NodeJs.
+
+
+## What Next?
+
+- [Smart Contract Scavenger Hunt](/activities/)
+
+- [Check our NEAR University](//near.university)
+
+- [Keep Learning!](//near.academy/)
+
+ - [Take an NEAR Certification course](//airtable.com/shrr8CbYRDHflkgI9?prefill_schedule=rec36OOvSYh1Roh8n)
+
+- [Learn the Fundamentals of Computer Science](https://www.youtube.com/playlist?list=PLhQjrBD2T383f9scHRNYJkior2VvYjpSL)
