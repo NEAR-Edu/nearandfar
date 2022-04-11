@@ -98,7 +98,7 @@
 
 <div class="asset-container p-rel">
     <img :src="$withBase('/images/course/web3_sl_org.png')" alt="web 3 organization" class="slide">
-    <img :src="$withBase('/images/course/web3_walle.gif')" alt="wall-e gif" style="position:absolute; top: 20%; left: .2%;">
+    <img :src="$withBase('/images/course/web3_walle.gif')" alt="wall-e gif" style="position:absolute; top: 20%; left: .2%; max-width:50%;">
 </div>
 
 ::: tip what's "state" in the neighborhood analogy?
