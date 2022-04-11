@@ -2,8 +2,9 @@
 home: true
 heroImage: /images/course/near_splash.jpg
 tagline: An Intro course to NEAR for non-programmers
-actionText: Quick Start →
-actionLink: /computer/
+actions:
+  - text: Start Course
+    link: /computer/
 footer: Made by Ben with ❤️
 ---
 
