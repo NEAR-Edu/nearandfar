@@ -1,0 +1,65 @@
+/**
+ * Custom Styles here.
+ *
+ * ref：https://v1.vuepress.vuejs.org/config/#index-styl
+ */
+
+@import "vuepress-theme-mix/lib/client/styles/home.scss";
+
+.home .hero img {
+    width: 100%;
+    max-width: 650px;
+}
+
+.asset-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 0 1rem;
+}
+
+.asset-container img {
+    width: 100%;
+    max-width: 450px;
+}
+
+.asset-container img.slide {
+    width: 100%;
+    max-width: 80vw;
+}
+
+.asset-container img.flex-multi-row {
+    width: 100%;
+    max-width: 30%;   
+}
+
+.p-rel {
+   position: relative;
+}
+
+@keyframes flickerAnimation {
+
+    0% {
+
+        opacity:1
+    }
+    50% {
+
+        opacity:0;
+    }  
+    100% {
+        opacity:1
+    }   
+}
+
+.animate-flicker {
+    -webkit-animation: flickerAnimation 3s infinite;
+    -moz-animation: flickerAnimation 3s infinite;
+    -o-animation: flickerAnimation 3s infinite;
+    animation: flickerAnimation 3s infinite;
+}
+
+.footer-link {
+    @extend .hero;
+}
