@@ -1,56 +1,3 @@
-<style lang="sass">
-.asset-container
-    display: flex
-    justify-content: center
-    align-items: center
-    margin: 1rem
-.asset-container img 
-    width: 100%
-    max-width: 450px
-
-.asset-container img.slide 
-    width: 100%
-    max-width: 80vw
-
-@keyframes flickerAnimation 
-    0%   
-        opacity:1
-    50%  
-        opacity:0
-    100% 
-        opacity:1
-
-@-o-keyframes flickerAnimation
-    0%   
-        opacity:1
-    50%  
-        opacity:0
-    100% 
-        opacity:1
-
-@-moz-keyframes flickerAnimation
-    0%       
-        opacity:1
-    50%  
-        opacity:0
-    100% 
-        opacity:1
-
-@-webkit-keyframes flickerAnimation
-    0%   
-        opacity:1
-    50%  
-        opacity:0
-    100% 
-        opacity:1
-
-.animate-flicker 
-   -webkit-animation: flickerAnimation 3s infinite
-   -moz-animation: flickerAnimation 3s infinite
-   -o-animation: flickerAnimation 3s infinite
-    animation: flickerAnimation 3s infinite
-
-</style>
 
 ![](/images/course/computer_thumbs-up.gif)
 
@@ -236,7 +183,7 @@ It may seem trivial, but when we talk about technology, we soon start to look at
 
 ## Your Relationship with Your Computer
 
-<div class="asset-container" style="position: relative; height:500px; top:-1%;">
+<div class="asset-container" style="position: relative; height:500px; top:-.5%;">
     <img :src="$withBase('/images/course/pc_vint.gif')" alt="vintage pc" style="position: absolute; left:50%;margin-right:-50%;top:50%;transform:translate(-50%,-50%);">
     <img :src="$withBase('/images/course/pc_pc.gif')" alt="pc" style="width:35%;position: absolute; left:0;margin-right:-50%;top:30%;transform:rotate(-15deg);">
     <img :src="$withBase('/images/course/hacker.gif')" alt="hacker" style="width:35%;position: absolute; right:0;top:30%;transform:rotate(25deg);">
@@ -298,4 +245,12 @@ It may seem trivial, but when we talk about technology, we soon start to look at
 
 <div class="asset-container">
     <img :src="$withBase('/images/course/pc_dist.jpeg')" alt="multiple vintage pc">
+</div>
+
+---
+
+<div class="asset-container">
+  <ClientOnly>
+    <Quiz1/> 
+  </ClientOnly>
 </div>
