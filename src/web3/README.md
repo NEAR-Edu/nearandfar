@@ -219,6 +219,7 @@ Imagine if instead of receiving a new phone book every time a new neighbor moves
 
 ## _Data_ and Web3
 
+
 <div class="asset-container">
     <img :src="$withBase('/images/course/web3_data-st.jpeg')" alt="Data from Star Trek">
 </div>
@@ -234,10 +235,13 @@ Imagine if instead of receiving a new phone book every time a new neighbor moves
 
 ### **Data at rest**
 
+
 <div class="asset-container p-rel">
     <img :src="$withBase('/images/course/web3_sl_data-at-rest.png')" alt="Web3 data at rest" class="slide">
     <img :src="$withBase('/images/course/web3_data-at-rest.png')" alt="web3 data diagram" style="position:absolute; left: 0;top: 30%;">
 </div>
+
+#### Once **data** is added to the blockchain it is **immutable** - it can't be changed.
 
 ---
 

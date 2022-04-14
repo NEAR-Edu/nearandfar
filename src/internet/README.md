@@ -1,4 +1,4 @@
-<style lang="sass">
+<!-- <style lang="sass">
 .asset-container
     display: flex
     justify-content: center
@@ -55,7 +55,7 @@
    -o-animation: flickerAnimation 3s infinite
     animation: flickerAnimation 3s infinite
 
-</style>
+</style> -->
 
 
 # 2. You and the Internet
@@ -298,3 +298,9 @@ Networking **nodes** and **modules** isn't all that different (I mean, it is! Bu
         - vast distributed systems with numerous access points still controlled by a a handful of decision makers
 
 ---
+
+<div class="asset-container">
+  <ClientOnly>
+    <Quiz2/> 
+  </ClientOnly>
+</div>
