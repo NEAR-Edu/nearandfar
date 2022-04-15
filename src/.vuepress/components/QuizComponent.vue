@@ -101,7 +101,7 @@
           <h2 class="title">
             You did
             {{
-              score() > 7 ? "an amazing" : score() < 4 ? "a poor" : "a good"
+              ((score() / quiz.questions.length) * 100) > 50 ? "an amazing" : ((score() / quiz.questions.length) * 100) < 50 ? "an okay" : "a good"
             }}
             job!
           </h2>
