@@ -249,6 +249,8 @@ It may seem trivial, but when we talk about technology, we soon start to look at
 
 ---
 
+## Quiz
+
 <div class="asset-container">
   <ClientOnly>
     <Quiz1/> 

@@ -299,6 +299,8 @@ Networking **nodes** and **modules** isn't all that different (I mean, it is! Bu
 
 ---
 
+## Quiz
+
 <div class="asset-container">
   <ClientOnly>
     <Quiz2/> 

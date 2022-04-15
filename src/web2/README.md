@@ -281,4 +281,10 @@ if I want to send you a postcard, but I have so much to tell you that I have to 
     - monopolies mean that fewer and fewer people hold the keys to the kingdom
 
 ---
+## Quiz
 
+<div class="asset-container">
+  <ClientOnly>
+    <Quiz3/> 
+  </ClientOnly>
+</div>

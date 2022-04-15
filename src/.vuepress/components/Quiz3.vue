@@ -38,7 +38,7 @@
 					],
 				},
 				{
-					text: "A data packet is an example of __________.",
+					text: "A data packet is like __________.",
 					responses: [
 						{ text: "a restaurant that only serves one type of food" },
 						{ text: "a neighborhood club"},
@@ -52,6 +52,15 @@
 						{ text: "It uses a special syncing protocol", "correct": true},
 						{ text: "It averages the time on every server and client"},
 						{ text: "It doesn't matter." }
+					],
+				},
+				{
+					text: "What are examples of data-at-rest on the client side?",
+					responses: [
+						{ text: "Session Storage",},
+						{ text: "Browser Local Storage"},
+						{ text: "Cookies" },
+						{ text: "All of the above", correct: true }
 					],
 				}
 			],

@@ -371,3 +371,10 @@ Imagine if instead of receiving a new phone book every time a new neighbor moves
     - Web3's access layer relies on Web2 servers
     - contracts compile to webassembly so they can run in Web2 browsers
 
+---
+
+<div class="asset-container">
+  <ClientOnly>
+    <Quiz4/> 
+  </ClientOnly>
+</div>
