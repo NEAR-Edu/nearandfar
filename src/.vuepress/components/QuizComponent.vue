@@ -28,7 +28,7 @@
                 {{ (questionIndex / quiz.questions.length) * 100 }}%
               </progress>
               <p>
-                {{ (questionIndex / quiz.questions.length) * 100 }}% complete
+                {{ Math.round((questionIndex / quiz.questions.length) * 100) }}% complete
               </p>
             </div>
             <!--/progress-->
