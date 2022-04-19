@@ -305,8 +305,8 @@
 
 - [Check our NEAR University](//near.university)
 
-- [Keep Learning!](//near.academy/)
+- [Learn to build on NEAR!](//near.academy/)
 
- - [Take an NEAR Certification course](//airtable.com/shrr8CbYRDHflkgI9?prefill_schedule=rec36OOvSYh1Roh8n)
+- [Take a NEAR Certification course](//airtable.com/shrr8CbYRDHflkgI9?prefill_schedule=rec36OOvSYh1Roh8n)
 
 - [Learn the Fundamentals of Computer Science](https://www.youtube.com/playlist?list=PLhQjrBD2T383f9scHRNYJkior2VvYjpSL)
