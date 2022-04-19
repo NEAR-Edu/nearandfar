@@ -274,12 +274,20 @@
 </div>
 
 ---
+## Quiz
 
-## Epilogue
+
+<div class="asset-container">
+  <ClientOnly>
+    <Quiz5/> 
+  </ClientOnly>
+</div>
+
 
 ---
+## Epilogue
 
-#### **what questions to ask?**
+#### **What questions to ask?**
 - remember, although we are building something new, the ideas have been around for a long time.
     - at it's core, the web is just requests and responses between clients and servers; if that relationship isn't clear when reviewing a dApp then your questions should investigate that 
 - Hopefully, the analogy of your house and neighborhoods being like computers and networks will help you make sense of distributed systems
@@ -290,14 +298,6 @@
             - many contracts are built in a "node environment". When you hear "environment" it's usually a clue that they are talking about NodeJs.
 
 ---
-## Quiz
-
-
-<div class="asset-container">
-  <ClientOnly>
-    <Quiz5/> 
-  </ClientOnly>
-</div>
 
 ## What Next?
 
