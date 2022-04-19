@@ -136,7 +136,7 @@
 
     computed: {
       filtered: function() {
-        return this.quiz.questions[this.questionIndex].responses.map((response, idx) => `${String.fromCharCode(97 + idx)}.${response.text}`);
+        return this.quiz.questions[this.questionIndex].responses.map((response, idx) => `${String.fromCharCode(97 + idx)}. ${response.text}`);
       }
     },
     methods: {
