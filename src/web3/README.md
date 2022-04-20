@@ -44,7 +44,7 @@ next: '/near/'
 
 ::: tip what's "state" in the neighborhood analogy?
 
-When a new house is built in your neighborhood, all the phone books need to update to reflect the new addition. So, a new phone book is sent out to all the neighbors with the address, etc. of the new house. 
+Before the internet, when a new house was built in your neighborhood, all the phone books needed to be updated to reflect the new addition. So, a new phone book was sent out to all the neighbors with the address, etc. of the new house. 
 
 :::
 

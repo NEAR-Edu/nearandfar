@@ -24,7 +24,7 @@ next: '/web2/'
     - waste management
 - each house has its own address
 - clusters of houses comprise neighborhoods
-- apartment buildings can be considered neighborhoods with each floor being a cluster of condos, have one main entrance, and maybe a front desk, to handle traffic in / out of building
+- apartment buildings can be considered neighborhoods with each floor being a cluster of condos, have one main entrance, and maybe a front desk, to handle traffic in / out of the building
 - neighborhoods help cities manage how resources are distributed
 - some neighborhoods are very densely populated :house_buildings::house_buildings::house_buildings:
 - some neighborhoods are spread out :house::desert::desert::house:
@@ -37,7 +37,7 @@ next: '/web2/'
 
 #### the internet is organized in a similar way to your neighborhood
 
-- networks generally have one Network Access Point (NAP) to handle traffic in / out of network
+- networks generally have one Network Access Point (NAP) to handle traffic in / out of the network
 - networks facilitate traffic (data) across the internet
 - some networks are densely populated :computer:  :computer:  :computer: 
 - some are sparsely populated:computer:    :desert:    :desert:  :computer:

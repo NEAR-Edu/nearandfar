@@ -38,7 +38,7 @@
 - blockchain architecture
     - nodes split into mini processors (sharding) to improve network availability
     - PoS validation
-    - localnet for dApp development
+    - localnet (aka devnet) for dApp development
     - testnet for testing dApps
     - mainnet for launching dApps
 
@@ -303,10 +303,10 @@
 
 - [Smart Contract Scavenger Hunt](/activities/)
 
-- [Check our NEAR University](//near.university)
+- [Check our NEAR University](https://near.university)
 
-- [Learn to build on NEAR!](//near.academy/)
+- [Learn to build on NEAR!](https://near.academy/)
 
-- [Take a NEAR Certification course](//airtable.com/shrr8CbYRDHflkgI9?prefill_schedule=rec36OOvSYh1Roh8n)
+- [Take a NEAR Certification course](https://airtable.com/shrr8CbYRDHflkgI9?prefill_schedule=rec36OOvSYh1Roh8n)
 
 - [Learn the Fundamentals of Computer Science](https://www.youtube.com/playlist?list=PLhQjrBD2T383f9scHRNYJkior2VvYjpSL)

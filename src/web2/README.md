@@ -180,14 +180,14 @@ if I want to send you a postcard, but I have so much to tell you that I have to 
     - your activity in and accross other web apps (shared data)
 
 - your email is your _main_ source of identity
-    - it relies on a web mail protocols to function
+    - it relies on a web mail protocol to function
     - you can use it to log into numerous web apps
     - password _plus_ information from another device (2FA) required for identity verification
 
 - access to your identity is at the mercy of internet service providers and app owners
     - Twitter can lock you out of your account
     - your ISP can shut your internet access at any point
-        - new internet plan? no problem - except now your router is no longer compatable, and you'll need to upgrade that before you service is restored :woman-shrugging: 
+        - new internet plan? no problem - except now your router is no longer compatable, and you'll need to upgrade that before you service is restored :shrug: 
 
 ----
 
