@@ -97,7 +97,7 @@ You might even be considering attending a NEAR certification course, but already
 
  - _Why is Web3 so powerful and important? Because it has the ability to side-step centralized power structures that govern the internet. Web3 is all about open access to information with a level of privacy not attainable previously. Getting around Big Brother is a pretty big deal, isn’t it?_
 
- - _Why is it called Web3? Today, Web3 generally refers to a type of network (of networks) that is still accessed through the existing internet, but with very different rules. Until Web3 fully breaks away from centralization, we can think of it and its infrastructure as another type of highway (like web2.0), but one where the toll roads pay YOU!_ 
+ - _Why is it called Web3? Today, Web3 generally refers to a type of network consisting of many smaller networks that is still accessed through the existing internet, but with very different rules. Until Web3 fully breaks away from centralization, we can think of it and its infrastructure as another type of highway (like web2.0), but one where the toll roads pay YOU!_ 
 
 ---
 
@@ -107,17 +107,18 @@ You might even be considering attending a NEAR certification course, but already
     <img :src="$withBase('/images/course/near_layers.jpeg')" alt="NEAR">
 </div>
 
-
- - _If Web3 is a decentralized network, then what are the rules of engagement?_
  
  - _It's an exciting time for Web3. By now you've seen dozens of ads that mention cryptocurrency. You may have scratched your head at whatever an NFT is, or perhaps gawked at the idea of pixel art selling for millions of dollars in “imaginary” money with silly names like Dogecoin, Ethereum, or even NEAR._
  
- - _There’s a ton of activity in the Web3 space, but does one actually use it like you use the internet today?_
+- _It can feel a bit overwhelming at first, but at it's core, Web3 is simply a decentralized network consisting of smaller decentralized networks_
 
  - _Decentralized networks can pretty much make up their own rules of engagement, so long as the outside world can access the information passing through them._
- 
- - _NEAR Protocol is exactly that - it's a system of distributed networks with its own rules, or **protocol**, for communicating._
 
+- _That's why Web3 can appear reliant on Web2, because it is! Pretty much everything in Web3 can be accessed through a modern browser._
+ 
+ - _NEAR Protocol is no different - it's a system of distributed networks with its own rules, or **protocol**, for communicating, but it's accessible to anyone through any modern browser._
+
+- _If you are eager to learn more about all this, then click the "Start Course" button below to get started!_
 ---
 
 <div class="footer-link">
