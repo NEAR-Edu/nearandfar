@@ -72,7 +72,7 @@
 
 
 
-- [Wallet](wallet.near.org)
+- [Wallet](https://wallet.near.org)
     - account management
 
 <div class="asset-container">
@@ -104,7 +104,7 @@
     - [berry.club](https://berryclub.io/)
 - Bussiness Development
     - DAO
-        - [Sputnik](sputnik.fund) 
+        - [Sputnik](httos://sputnik.fund) 
 
 #### **access points layer**
 - top layer
