@@ -117,7 +117,7 @@ Your computer is organized through two types of **interfaces**
 #### What comes to mind when you hear "data"?
 
 - information? :heavy_check_mark: 
-- stuff that stored on hard drives? :heavy_check_mark: 
+- stuff that is stored on hard drives? :heavy_check_mark: 
 - electrical signals? :heavy_check_mark: 
 
 How does information pass through your computer, and how is it stored for later use? 
@@ -125,7 +125,8 @@ How does information pass through your computer, and how is it stored for later 
 It may seem trivial, but when we talk about technology, we soon start to look at what data is doing when it's **in motion** and **at rest**
 
 - when we press a key on our keyboard, a signal travels to our computer's brain and registers the key we pressed. It's always listening for something to interface with it.
-- when we save a file, our CPU gets instructions to store the contents of the file along with information about the file on our hard drive.
+  
+- when we save a file, our computer's operating system gets instructions to store the contents of the file along with information about the file on our hard drive.
 
 
 <div class="asset-container">
@@ -220,7 +221,7 @@ It may seem trivial, but when we talk about technology, we soon start to look at
 - you can add / remove the programs you want
 - you can add / delete files, media and other **digital assets**
 - you can replace your mouse, your hard drive, and your monitor
-- you can even toss your computer in a pond (make sure to take it back out though, we don’t want to be polluting ponds). 
+- you can even toss your computer in a pond (make sure to remove it though. We don’t want to pollute any ponds). 
 
 
 
