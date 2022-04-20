@@ -68,7 +68,7 @@
 				{
 					text: "Decentralized networks like NEAR are best used __________.",
 					responses: [
-						{ text: "to store and share assets."},
+						{ text: "to store and share data"},
 						{ text: "to store and share assets" },
 						{ text: "to side step centralized authorities from censoring or blocking internet access" },
 						{ text: "for trustless, peer-to-peer transactions"},

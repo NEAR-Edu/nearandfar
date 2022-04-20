@@ -22,7 +22,7 @@
 					],
 				},
 				{
-					text: "How is the difference between a server and a client",
+					text: "What is the difference between a server and a client",
 					responses: [
 						{ text: "There is no difference."},
 						{ text: "A client is any node that has a browser, but servers can never be nodes." },
