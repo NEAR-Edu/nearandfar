@@ -1,6 +1,6 @@
 {
   "name": "near-and-far-course",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "intro course to NEAR for non-programmers",
   "main": "index.js",
   "authors": {
