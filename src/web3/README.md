@@ -1,3 +1,6 @@
+---
+next: '/near/'
+---
 # 4. You and Web3.0
 
 
@@ -46,7 +49,7 @@ When a new house is built in your neighborhood, all the phone books need to upda
 :::
 
 - change state of one, you change state of all
-    - we are Borg :robot_face: 
+    - we are Borg :robot: 
 - when one node registers a change in the network (state) it gossips about it to the other nodes
     - gossip spreads about the change in state to the entire network
 
@@ -310,9 +313,10 @@ Imagine if instead of receiving a new phone book every time a new neighbor moves
     - contracts compile to webassembly so they can run in Web2 browsers
 
 ---
+## Quiz 
 
 <div class="asset-container">
   <ClientOnly>
-    <Quiz4/> 
+    <Quiz4 :nextChapter="$frontmatter['next']"/> 
   </ClientOnly>
 </div>

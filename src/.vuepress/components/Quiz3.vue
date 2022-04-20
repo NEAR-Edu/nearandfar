@@ -1,6 +1,6 @@
 <template>
   <QuizComponent 
-		:quiz="quiz" :userResponses="userResponseSkelaton" 
+		:quiz="quiz" :userResponses="userResponseSkelaton" :nextChapter="nextChapter"
 	/>
 </template>
 
@@ -68,6 +68,7 @@
 		userResponseSkelaton = Array(quiz1Computer.questions.length).fill(null);
 
 	export default {
+		props:["nextChapter"],
 		components: {
 			QuizComponent,
 		},

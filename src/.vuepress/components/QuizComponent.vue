@@ -45,7 +45,7 @@
               class="option"
               v-for="(response, index) in filtered"
               @click="selectOption(index)"
-              :class="{ 'is-selected': userResponses[questionIndex] == index }"
+              :class="{ 'is-selected': userResponses[questionIndex] == index, 'is-correct': userResponses[questionIndex] == index && isCorrect , 'is-incorrect': userResponses[questionIndex] == index && isIncorrect }"
               :key="index"
             >
               {{ response }}
@@ -55,19 +55,21 @@
           <!--quizFooter: navigation and progress-->
           <footer class="questionFooter">
             <!--pagination-->
-            <nav class="pagination" role="navigation" aria-label="pagination">
+            <nav class="pagination" role="navigation" aria-label="pagination" :style="{'flex-direction': questionIndex > 0 ? 'row': 'row-reverse'}">
               <!-- back button -->
               <a
+								v-if="questionIndex > 0"
                 class="button"
                 v-on:click="prev()"
                 :disabled="questionIndex < 1"
               >
                 Back
               </a>
-
+      
               <!-- next button -->
               <a
                 class="button"
+								style="align-self:right"
                 :class="userResponses[questionIndex] == null ? '' : 'is-active'"
                 v-on:click="next()"
                 :disabled="questionIndex >= quiz.questions.length"
@@ -109,9 +111,14 @@
             Total score: {{ score() }} / {{ quiz.questions.length }}
           </p>
           <br />
+					<div class="buttonContainer">
           <a class="button" @click="restart()"
             >restart <i class="fa fa-refresh"></i
           ></a>
+	
+					<router-link v-if="nextChapter !== null" :to="nextChapter" class="button" aria-label="continue">continue</router-link>
+					</div>
+          <br />
           <!--/resultTitleBlock-->
         </div>
         <!--/quizCompetedResult-->
@@ -125,12 +132,13 @@
 <script>
 
   export default {  
-    props: ['quiz', 'userResponses'],
+    props: ['quiz', 'userResponses', 'nextChapter'],
     data() {
       return {
           questionIndex: 0,
-          isActive: false
-    
+          isActive: false,
+					isCorrect: false,
+					isIncorrect: false
       }
     },
 
@@ -141,20 +149,46 @@
     },
     methods: {
       restart: function(){
+				this.resetValidation();
         this.questionIndex=0;
         this.userResponses=Array(this.quiz.questions.length).fill(null);
       },
+			resetValidation: function(){
+				this.isCorrect = false;
+				this.isIncorrect = false;
+			},
       selectOption: function(index) {
+				this.resetValidation();
         this.userResponses[this.questionIndex] = index;
       },
       next: function() {
-          if (this.questionIndex < this.quiz.questions.length)
-            this.questionIndex++;
+				// if clicking "skip" don't wait for timeout
+				if (this.userResponses[this.questionIndex] == null) return this.questionIndex++
+
+				let isCorrectResponse = this.userResponses[this.questionIndex] !== null ? this.quiz.questions[this.questionIndex].responses[this.userResponses[this.questionIndex]]['correct'] : null
+				if (this.questionIndex < this.quiz.questions.length) {
+					if (isCorrectResponse) {
+						this.isCorrect = true
+					} else {
+						this.isIncorrect = true
+					}
+					// leave time for user to check their answer
+					setTimeout(() => {
+						this.resetValidation()
+						this.questionIndex++;
+					}, 1000)
+				}
       },
 
       prev: function() {
-          if (this.quiz.questions.length > 0) this.questionIndex--;
+				this.resetValidation()
+        if (this.quiz.questions.length > 0) this.questionIndex--;
       },
+
+      continue: function() {
+        if (this.quiz.questions.length > 0) this.questionIndex--;
+      },
+
       // Return "true" count in userResponses
       score: function() {
           var score = 0;
@@ -321,6 +355,14 @@
 							&.is-selected {
 								border-color: rgba(black,0.25);
 								background-color: white;
+							}
+							&.is-correct {
+								// border-color: rgba(black,0.25);
+								background-color: rgba(green, .25);
+							}
+							&.is-incorrect {
+								// border-color: rgba(black,0.25);
+								background-color: rgba(red, .25);
 							}
 							&:hover {
 								background-color: rgba(0, 0, 0, 0.1);

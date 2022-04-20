@@ -1,4 +1,6 @@
-
+---
+next: '/web3/'
+---
 # 3. You and Web2.0
 
 <div class="asset-container">
@@ -226,6 +228,6 @@ if I want to send you a postcard, but I have so much to tell you that I have to 
 
 <div class="asset-container">
   <ClientOnly>
-    <Quiz3/> 
+    <Quiz3 :nextChapter="$frontmatter['next']"/> 
   </ClientOnly>
 </div>

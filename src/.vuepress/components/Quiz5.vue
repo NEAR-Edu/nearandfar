@@ -1,6 +1,6 @@
 <template>
   <QuizComponent 
-		:quiz="quiz" :userResponses="userResponseSkelaton" 
+		:quiz="quiz" :userResponses="userResponseSkelaton" :nextChapter=null
 	/>
 </template>
 
@@ -82,7 +82,7 @@
 					responses: [
 						{ text: "Extremely True", correct: true }
 					],
-				}
+				},
 			],
 		},
 		userResponseSkelaton = Array(quiz1Computer.questions.length).fill(null);

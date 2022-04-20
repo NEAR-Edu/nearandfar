@@ -1,3 +1,6 @@
+---
+next: '/web2/'
+---
 # 2. You and the Internet
 
 ---
@@ -243,6 +246,6 @@ Networking **nodes** and **modules** isn't all that different (I mean, it is! Bu
 
 <div class="asset-container">
   <ClientOnly>
-    <Quiz2/> 
+    <Quiz2 :nextChapter="$frontmatter['next']"/> 
   </ClientOnly>
 </div>

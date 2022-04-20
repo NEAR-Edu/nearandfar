@@ -1,3 +1,6 @@
+---
+next: '/internet/'
+---
 
 ![](/images/course/computer_thumbs-up.gif)
 
@@ -249,11 +252,10 @@ It may seem trivial, but when we talk about technology, we soon start to look at
 </div>
 
 ---
-
 ## Quiz
 
 <div class="asset-container">
   <ClientOnly>
-    <Quiz1/> 
+    <Quiz1 :nextChapter="$frontmatter['next']"/> 
   </ClientOnly>
 </div>
