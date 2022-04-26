@@ -1,6 +1,11 @@
 ---
 next: '/web3/'
 ---
+
+<ClientOnly>
+  <SheildDetect/> 
+</ClientOnly>
+
 # 3. You and Web2.0
 
 <div class="asset-container">

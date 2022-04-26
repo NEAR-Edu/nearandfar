@@ -2,6 +2,10 @@
 next: '/internet/'
 ---
 
+<ClientOnly>
+  <SheildDetect/> 
+</ClientOnly>
+
 ![](/images/course/computer_thumbs-up.gif)
 
 # 1. You and Your Computer

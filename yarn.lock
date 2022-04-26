@@ -1887,6 +1887,11 @@ bl@^4.1.0:
     inherits "^2.0.4"
     readable-stream "^3.4.0"
 
+block-adblock-js@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/block-adblock-js/-/block-adblock-js-1.0.3.tgz#cf72b102707a62a0ec3926bf0a688d524de6341a"
+  integrity sha512-ri17VtYmHfIREXLbKA5JB4NVYXohoFnql1bbZ/kD2gDWzG2DddS3sCmUWl1s6TAw5NAzIL0YxiQC+e5MbkTlnw==
+
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
