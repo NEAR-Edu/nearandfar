@@ -11,6 +11,7 @@ footer: Made by Ben with ❤️
 <ClientOnly>
   <SheildDetect/> 
 </ClientOnly>
+
 ## Welcome to the Course!
 
 Anyone with a computer and internet connection can take this course.
