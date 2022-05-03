@@ -2,9 +2,9 @@
 next: '/web2/'
 ---
 
-<ClientOnly>
+<!-- <ClientOnly>
   <SheildDetect/> 
-</ClientOnly>
+</ClientOnly> -->
 
 # 2. You and the Internet
 

@@ -8,9 +8,9 @@ actions:
 footer: Made by Ben with ❤️
 ---
 
-<ClientOnly>
+<!-- <ClientOnly>
   <SheildDetect/> 
-</ClientOnly>
+</ClientOnly> -->
 
 ## Welcome to the Course!
 

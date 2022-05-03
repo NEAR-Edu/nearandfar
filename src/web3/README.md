@@ -2,9 +2,9 @@
 next: '/near/'
 ---
 
-<ClientOnly>
+<!-- <ClientOnly>
   <SheildDetect/> 
-</ClientOnly>
+</ClientOnly> -->
 
 # 4. You and Web3.0
 

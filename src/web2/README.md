@@ -1,10 +1,10 @@
 ---
 next: '/web3/'
 ---
-
+<!-- 
 <ClientOnly>
   <SheildDetect/> 
-</ClientOnly>
+</ClientOnly> -->
 
 # 3. You and Web2.0
 

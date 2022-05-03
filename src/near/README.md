@@ -1,6 +1,6 @@
-<ClientOnly>
+<!-- <ClientOnly>
   <SheildDetect/> 
-</ClientOnly>
+</ClientOnly> -->
 
 # 5. You and NEAR Protocol :fireworks: 
 

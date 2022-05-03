@@ -2,9 +2,9 @@
 next: '/internet/'
 ---
 
-<ClientOnly>
+<!-- <ClientOnly>
   <SheildDetect/> 
-</ClientOnly>
+</ClientOnly> -->
 
 ![](/images/course/computer_thumbs-up.gif)
 
