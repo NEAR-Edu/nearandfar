@@ -307,7 +307,7 @@
 
 - [Smart Contract Scavenger Hunt](/activities/)
 
-- [Check our NEAR University](https://near.university)
+- [Check out NEAR University](https://near.university)
 
 - [Learn to build on NEAR!](https://near.academy/)
 
