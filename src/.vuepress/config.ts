@@ -1,10 +1,11 @@
 import { defineUserConfig } from 'vuepress'
-import type { MixThemeConfig } from 'vuepress-theme-mix/lib/node'
+import { mixTheme } from 'vuepress-theme-mix'
 import { navbar, sidebar } from './configs'
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics' 
 
 const isProd = process.env.NODE_ENV === 'production'
 
-export default defineUserConfig<MixThemeConfig>({
+export default defineUserConfig({
   // Site Config
   base: '/',
 
@@ -39,8 +40,7 @@ export default defineUserConfig<MixThemeConfig>({
   },
 
   // Theme Config
-  theme: 'vuepress-theme-mix',
-  themeConfig: {
+  theme: mixTheme({
     logo: '/images/logos/near_icon.svg',
     title: 'NEAR and Far from Any Coding', // for navbar
     docsRepo: 'gavinliu6/vuepress-theme-mix',
@@ -58,24 +58,14 @@ export default defineUserConfig<MixThemeConfig>({
     themePlugins: {
       git: isProd,
     },
-  },
+  }),
 
   // Directory Config
   dest: 'public',
 
-  // plugins: [
-  //   [
-  //     '@vuepress/plugin-docsearch',
-  //     {
-  //       apiKey: 'fba2ba8ba151f7d5bb1adf1e5b4b4f39',
-  //       indexName: 'vuepress-theme-mix',
-  //       locales: {
-  //         '/': {
-  //           placeholder: 'Search Course',
-  //         }
-  //       },
-  //     },
-  //   ],
-  // ]
- 
+  plugins: [
+    googleAnalyticsPlugin({
+      id: 'G-M2T62EJLD6'
+    })
+  ]
 })
