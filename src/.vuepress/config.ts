@@ -28,6 +28,19 @@ export default defineUserConfig({
       mf.src = "//cdn.mouseflow.com/projects/7c7a81fc-0346-4408-8125-b1b1e6249fa8.js";
       document.getElementsByTagName("head")[0].appendChild(mf);
     })();
+  `],
+  ['script', {}, `
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    (function() {
+      if (document.getElementById('gaScript') !== null) return;
+      var gascript = document.createElement("script");
+      gascript.id="gaScript";
+      gascript.type = "text/javascript"; gascript.async = true;
+      gascript.src = "//www.googletagmanager.com/gtag/js?id=G-M2T62EJLD6";
+      document.getElementsByTagName("head")[0].appendChild(gascript);
+      gtag('js', new Date());
+    })();
   `]
 ],
 
@@ -63,9 +76,10 @@ export default defineUserConfig({
   // Directory Config
   dest: 'public',
 
+  // ga plugin not working. using head injection instead
   plugins: [
-    googleAnalyticsPlugin({
-      id: 'G-M2T62EJLD6'
-    })
+    // googleAnalyticsPlugin({
+    //   id: 'G-M2T62EJLD6'
+    // })
   ]
 })
