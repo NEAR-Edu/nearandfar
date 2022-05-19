@@ -37,7 +37,7 @@ export default defineUserConfig({
       var gascript = document.createElement("script");
       gascript.id="gaScript";
       gascript.type = "text/javascript"; gascript.async = true;
-      gascript.src = "//www.googletagmanager.com/gtag/js?id=G-M2T62EJLD6";
+      gascript.src = "//www.googletagmanager.com/gtm.js?id=GTM-KBSZS97";
       document.getElementsByTagName("head")[0].appendChild(gascript);
       gtag('js', new Date());
     })();
